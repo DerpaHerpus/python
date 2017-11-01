@@ -59,13 +59,13 @@ def pokeBattle():
         print('')
         print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
 
-Venusaur = {'type1': 'Grass', 'type2': 'Poison', 'move1': 'Sludge Bomb', 'move2': 'Giga Drain', 'move3': 'Synthesis', 'move4': 'Earthquake', 'health': '..', 'speed'    : '..'}
+Venusaur = {'type1': 'Grass', 'type2': 'Poison', 'move1': 'Sludge Bomb', 'move2': 'Giga Drain', 'move3': 'Synthesis', 'move4': 'Earthquake', 'health': '..', 'speed': '..'}
 
-Charizard = {'type1': 'Fire', 'type2': 'Flying', 'move1': 'Flare Blitz', 'move2': 'Dragon Claw', 'move3': 'Earthquake', 'move4': 'Roost', 'health': '..', 'speed': '    ..'}
+Charizard = {'type1': 'Fire', 'type2': 'Flying', 'move1': 'Flare Blitz', 'move2': 'Dragon Claw', 'move3': 'Earthquake', 'move4': 'Roost', 'health': '..', 'speed': '..'}
 
 Blastoise = {'type1': 'Water', 'type2': 'Water', 'move1': 'Water Pulse', 'move2': 'Ice Beam', 'move3': 'Dark Pulse', 'move4': 'Aura Sphere', 'health': '..', 'speed'    : '..'}
 
-Butterfree = {'type1': 'Grass', 'type2': 'Flying', 'move1': 'Bug Buzz', 'move2': 'Energy Ball', 'move3': 'Psychic', 'move4': 'Air Slash', 'health': '..', 'speed': '    ..'}
+Butterfree = {'type1': 'Grass', 'type2': 'Flying', 'move1': 'Bug Buzz', 'move2': 'Energy Ball', 'move3': 'Psychic', 'move4': 'Air Slash', 'health': '..', 'speed': '..'}
 
 Beedrill = {'type1':'Grass', 'type2':'Poison', 'move1':'Bug Buzz', 'move2':'Poison Jab', 'move3':'Pursuit', 'move4':'Drill Run', 'health':'..', 'speed':'..'}
 
@@ -79,11 +79,11 @@ Arbok = {'type1':'Poison', 'type2':'Poison', 'move1':'Gunk Shot', 'move2':'Crunc
 
 Raichu = {'type1':'Electric', 'type2':'Eletric', 'move1':'Thunderbolt', 'move2':'Focus Blast', 'move3':'Signal Beam', 'move4':'Surf', 'health':'..', 'speed':'..'}
 
-Sandslash = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Stone Edge', 'move3':'Night Slash', 'move4':'Chip Away', 'health':'..', 'speed':'..'    }
+Sandslash = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Stone Edge', 'move3':'Night Slash', 'move4':'Chip Away', 'health':'..', 'speed':'..' }
 
-Nidoqueen = {'type1':'Poison', 'type2':'Ground', 'move1':'Earth Power', 'move2':'Ice Beam', 'move3':'Sludge Wave', 'move4':'Flamethrower', 'health':'..', 'speed':'.    .'}
+Nidoqueen = {'type1':'Poison', 'type2':'Ground', 'move1':'Earth Power', 'move2':'Ice Beam', 'move3':'Sludge Wave', 'move4':'Flamethrower', 'health':'..', 'speed':'..'}
 
-Nidoking = {'type1':'Poison', 'type2':'Ground', 'move1':'Sludge Wave', 'move2':'Earth Power', 'move3':'Ice Beam', 'move4':'Super Power', 'health':'..', 'speed':'..'    }
+Nidoking = {'type1':'Poison', 'type2':'Ground', 'move1':'Sludge Wave', 'move2':'Earth Power', 'move3':'Ice Beam', 'move4':'Super Power', 'health':'..', 'speed':'..' }
 
 Clefable = {'type1':'Normal', 'type2':'Normal', 'move1':'Moonblast', 'move2':'Soft-Boiled', 'move3':'Focus Blast', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
 
@@ -103,7 +103,23 @@ Dugtrio = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Pu
 
 Persian = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Water Pulse', 'move3':'Night Slash', 'move4':'Power Gem', 'health':'..', 'speed':'..'}
 
-Vileplume = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Synthesis', 'move4':'Power', 'health':'..', 'speed':'..'}
+Golduck = {'type1':'Water', 'type2':'Water', 'move1':'Ice Beam', 'move2':'Hydro Pump', 'move3':'Confuse Ray', 'move4':'Body Slam', 'health':'..', 'speed':'..'}
+
+Primeape = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Earthquake', 'move2':'Body Slam', 'move3':'Dynamic Punch', 'move4':'Fire Punch', 'health':'..', 'speed':'..'}
+
+Arcanine = {'type1':'Fire', 'type2':'Fire', 'move1':'Fire Blast', 'move2':'Flare Blitz', 'move3':'Body Slam', 'move4':'Heat Wave', 'health':'..', 'speed':'..'}
+
+Poliwrath = {'type1':'Fighting', 'type2':'Water', 'move1':'Earthquake', 'move2':'Ice Punch', 'move3':'Scald', 'move4':'Dynamic Punch', 'health':'..', 'speed':'..'}
+
+Alakazam = {'type1':'Psychic', 'type2':'Psychic', 'move1':'Psychic', 'move2':'Confusion', 'move3':'Psybeam', 'move4':'Tri Attack', 'health':'..', 'speed':'..'}
+
+Machamp = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Dynamic Punch', 'move2':'Earthquake', 'move3':'Mega Kick', 'move4':'Mega Punch', 'health':'..', 'speed':'..'}
+
+Victreebel = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Leaf Blade', 'move4':'Power Whip', 'health':'..', 'speed':'..'}
+
+Tentacruel = {'type1':'Poison', 'type2':'Water', 'move1':'Confuse Ray', 'move2':'Sludge Bomb', 'move3':'Hydro Pump', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+
+
 print(pokePick())
 
     play_again = True
