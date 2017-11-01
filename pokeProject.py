@@ -1,6 +1,6 @@
 import random
 
-select = {'1': 'Venusaur', '2': 'Charizard', '3': 'Blastoise', '4': 'Butterfree', '5': 'Beedrill', '6': 'Pidgeot', '7': 'Raticate', '8': 'Fearow', '9': 'Arbok', '10    ': 'Raichu', '11': 'Sandslash', '12': 'Nidoqueen', '13': 'Nidoking', '14': 'Clefable', '15': 'Ninetales', '16': 'Wigglytuff', '17': 'Golbat', '18': 'Vileplume', '19    ': 'Parasect', '20': 'Venomoth', '21': 'Dugtrio', '22': 'Persian', '23': 'Golduck', '24': 'Primeape', '25': 'Arcanine', '26': 'Poliwrath', '27': 'Alakazam', '28': '    Machamp', '29': 'Victreebel', '30': 'Tentacruel', '31': 'Golem', '32': 'Rapidash', '33': 'Slowbro', '34': 'Magneton', '35': "Farfetch'd", '36': 'Dodrio', '37': 'Dew    gong', '38': 'Muk', '39': 'Cloyster', '40': 'Gengar', '41': 'Onix', '42': 'Hypno', '43': 'Kingler', '44': 'Electode', '45': 'Exeggutor', '46': 'Marowak', '47': 'Hit    monlee', '48': 'Hitmonchan', '49': 'Lickitung', '50': 'Weezing', '51': 'Rhydon', '52': 'Chansey', '53': 'Tangela', '54': 'Kangaskhan', '55': 'Seadra', '56': 'Seakin    g', '57': 'Starmie', '58': 'Mr. Mime', '58': 'Scyther', '60': 'Jynx', '61': 'Electabuzz', '62': 'Magmar', '63': 'Pinsir', '64': 'Tauros', '65': 'Gyarados', '66': 'L    apras', '67': 'Ditto', '68': 'Vaporeon', '69': 'Jolteon', '70': 'Flareon', '71': 'Porygon', '72': 'Omastar', '73': 'Kabutops', '74': 'Aerodactyl', '75': 'Snorlax',     '76': 'Articuno', '77': 'Zapdos', '78': 'Moltres', '79': 'Dragonite', '80': 'Mewtwo'}
+select = {'1': 'Venusaur', '2': 'Charizard', '3': 'Blastoise', '4': 'Butterfree', '5': 'Beedrill', '6': 'Pidgeot', '7': 'Raticate', '8': 'Fearow', '9': 'Arbok', '10    ': 'Raichu', '11': 'Sandslash', '12': 'Nidoqueen', '13': 'Nidoking', '14': 'Clefable', '15': 'Ninetales', '16': 'Wigglytuff', '17': 'Golbat', '18': 'Vileplume', '19    ': 'Parasect', '20': 'Venomoth', '21': 'Dugtrio', '22': 'Persian', '23': 'Golduck', '24': 'Primeape', '25': 'Arcanine', '26': 'Poliwrath', '27': 'Alakazam', '28': '    Machamp', '29': 'Victreebel', '30': 'Tentacruel', '31': 'Golem', '32': 'Rapidash', '33': 'Slowbro', '34': 'Magneton', '35': "Farfetch'd", '36': 'Dodrio', '37': 'Dew    gong', '38': 'Muk', '39': 'Cloyster', '40': 'Gengar', '41': 'Onix', '42': 'Hypno', '43': 'Kingler', '44': 'Electode', '45': 'Exeggutor', '46': 'Marowak', '47': 'Hit    monlee', '48': 'Hitmonchan', '49': 'Lickitung', '50': 'Weezing', '51': 'Rhydon', '52': 'Chansey', '53': 'Tangela', '54': 'Kangaskhan', '55': 'Seadra', '56': 'Seaking', '57': 'Starmie', '58': 'Mr. Mime', '58': 'Scyther', '60': 'Jynx', '61': 'Electabuzz', '62': 'Magmar', '63': 'Pinsir', '64': 'Tauros', '65': 'Gyarados', '66': 'Lapras', '67': 'Ditto', '68': 'Vaporeon', '69': 'Jolteon', '70': 'Flareon', '71': 'Porygon', '72': 'Omastar', '73': 'Kabutops', '74': 'Aerodactyl', '75': 'Snorlax',     '76': 'Articuno', '77': 'Zapdos', '78': 'Moltres', '79': 'Dragonite', '80': 'Mewtwo'}
 
 for x in select:
     print(x,':', select[x])
@@ -103,7 +103,8 @@ Dugtrio = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Pu
 
 Persian = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Water Pulse', 'move3':'Night Slash', 'move4':'Power Gem', 'health':'..', 'speed':'..'}
 
-Vileplume = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Synthesis', 'move4':'Power', 'health':'..', 'speed':'..'}
+Golduck = {'type1':'Water', 'type2':'Water', 'move1':'Hydro Pump', 'move2':'Scald', 'move3':'Ice Beam', 'move4':'Focus Blast', 'health':'..', 'speed':'..'}
+
 print(pokePick())
 
     play_again = True
@@ -135,6 +136,121 @@ print(pokePick())
                 print("\nPlease select a move:")
                 print(myPokeMoveset)
                 myPokeMove = input
+
+                if myPokeMove[typing] == Bug:
+                    if oppPokeType == (Psychic or Grass or Dark):
+                        superEffective = True
+                    elif oppPokeType == (Fighting or Fire or Flying or Ghost or Poison or Steel):
+                        notEffective = True
+
+                elif myPokeMove[typing] == Dark:
+                    if oppPokeType == (Ghost or Psychic):
+                        superEffective = True
+                    elif oppPokeType == (Dark or Fighting):
+                        notEffective = True
+
+                elif myPokeMove[typing] == Dragon:
+                    if oppPokeType == Dragon:
+                        superEffective = True
+                    elif oppPokeType == Steel:
+                        notEffective = True
+
+                elif myPokeMove[typing] == Electric:
+                    if oppPokeType == (Flying or Water):
+                        superEffective = True
+                    elif oppPokeType == (Dragon or Electric or Grass):
+                        notEffective = True
+                    elif oppPokeType == Ground
+                        immune = True
+
+                elif myPokeMove[typing] == Fighting:
+                    if oppPokeType == (Dark or Ice or Normal or Rock or Steel):
+                        superEffective = True
+                    elif oppPokeType == (Bug or Flying or Poison or Psychic):
+                        notEffective = True
+                    elif oppPokeType == Ghost:
+                        immune = True
+
+                elif myPokeMove[typing] == Fire:
+                    if oppPokeType == (Bug or Grass or Ice or Steel):
+                        superEffective = True
+                    elif oppPokeType == (Dragon or Fire or Rock or Water):
+                        notEffective = True
+
+                elif myPokeMove[typing] == Flying:
+                    if oppPokeType == (Bug or Fighting or Grass):
+                        superEffective = True
+                    elif oppPokeType == (Electric or Rock or Steel):
+                        notEffective = True
+
+                elif myPokeMove[typing] == Ghost:
+                    if oppPokeType == (Ghost or Psychic):
+                        superEffective = True
+                    elif oppPokeType == (Dark):
+                        notEffective = True
+                    elif oppPokeType == Normal
+                        immune = True
+
+                elif myPokeMove[typing] == Grass:
+                    if oppPokeType == (Ground or Rock or Water):
+                        superEffective = True
+                    elif oppPokeType == (Bug or Dragon or Fire or Flying or Grass or Poison or Steel):
+                        notEffective = True
+
+                elif myPokeMove[typing] == Ground:
+                    if oppPokeType == (Electric or Fire or Poison or Rock or Steel):
+                        superEffective = True
+                    elif oppPokeType == (Bug or Grass):
+                        notEffective = True
+                    elif oppPokeType == Flying
+                        immune = True
+
+                elif myPokeMove[typing] == Ice:
+                    if oppPokeType == (Dragon or Flying or Grass or Ground):
+                        superEffective = True
+                    elif oppPokeType == (Fire or Ice or Steel or Water):
+                        notEffective = True
+
+                elif myPokeMove[typing] == Normal:
+                    if oppPokeType == (Rock or Steel):
+                        notEffective = True
+                    elif oppPokeType == Ghost:
+                        immune = True
+
+                elif myPokeMove[typing] == Poison:
+                    if oppPokeType == Grass:
+                        superEffective = True
+                    elif oppPokeType == (Ghost or Ground or Poison or Rock):
+                        notEffective = True
+                    elif oppPokeType == Steel:
+                        immune = True
+
+                elif myPokeMove[typing] == Psychic:
+                    if oppPokeType == (Fighting or Poison):
+                        superEffective = True
+                    elif oppPokeType == (Psychic or Steel):
+                        notEfffective = True
+                    elif oppPokeType = Dark
+                        immune = True
+
+                elif myPokeMove[typing] == Rock:
+                    if oppPokeType == (Bug or Fire or Flying or Ice):
+                        superEffective = True
+                    elif oppPokeType == (Fighting or Ground or Steel):
+                        notEffective = True
+
+                elif myPokeMove[typing] == Steel:
+                    if oppPokeType == (Ice or Rock):
+                        superEffective = True
+                    elif oppPokeType == (Electric or Fire or Steel or Water):
+                        notEffective = True
+
+                elif myPokeMove[typing] == Water:
+                    if oppPokeType == (Fire or Ground or Rock):
+                        superEffective = True
+                    elif oppPokeType == (Dragon or Grass or Water):
+                        notEffective = True
+
                 moveMiss = random.randint(1,15)
                 if moveMiss = 1:
                     print('You Missed')
@@ -158,10 +274,19 @@ print(pokePick())
                                     crit = False
 
                                 if crit:
-                                    myPokeMove = myPokeMove * 2
-                                    oppPokeHP - myPokeMove
+                                    if superEffective:
+                                        myPokeMove = myPokeMove * 4
+                                        oppPokeHP = oppPokeHP - myPokeMove
+                                    elif notEffective
+                                    else:
+                                        myPokeMove = myPokeMove * 2
+                                        oppPokeHP = oppPokeHP - myPokeMove
                                 else:
-                                    oppPokeHP - myPokeMove
+                                    if superEffective:
+                                        myPokeMove = myPokeMove * 2
+                                        oppPokeHP = oppPokeHP - myPokeMove
+                                    else:
+                                        oppPokeHP = oppPokeHP - myPokeMove
                         else:
                                 moveCrit = random.randint(1,10000)
                                 if moveCrit <= 625:
@@ -175,6 +300,121 @@ print(pokePick())
                                     oppPokeHP - myPokeMove
             else:
                 oppPokeMove = oppPokeMoveset[random.randint(1,4)]
+
+                if oppPokeMove[typing] == Bug:
+                    if myPokeType == (Psychic or Grass or Dark):
+                        superEffective = True
+                    elif myPokeType == (Fighting or Fire or Flying or Ghost or Poison or Steel):
+                        notEffective = True
+
+                elif oppPokeMove[typing] == Dark:
+                    if myPokeType == (Ghost or Psychic):
+                        superEffective = True
+                    elif myPokeType == (Dark or Fighting):
+                        notEffective = True
+
+                elif oppPokeMove[typing] == Dragon:
+                    if myPokeType == Dragon:
+                        superEffective = True
+                    elif myPokeType == Steel:
+                        notEffective = True
+
+                elif oppPokeMove[typing] == Electric:
+                    if myPokeType == (Flying or Water):
+                        superEffective = True
+                    elif myPokeType == (Dragon or Electric or Grass):
+                        notEffective = True
+                    elif myPokeType == Ground
+                        immune = True
+
+                elif oppPokeMove[typing] == Fighting:
+                    if myPokeType == (Dark or Ice or Normal or Rock or Steel):
+                        superEffective = True
+                    elif myPokeType == (Bug or Flying or Poison or Psychic):
+                        notEffective = True
+                    elif myPokeType == Ghost:
+                        immune = True
+
+                elif oppPokeMove[typing] == Fire:
+                    if myPokeType == (Bug or Grass or Ice or Steel):
+                        superEffective = True
+                    elif myPokeType == (Dragon or Fire or Rock or Water):
+                        notEffective = True
+
+                elif oppPokeMove[typing] == Flying:
+                    if myPokeType == (Bug or Fighting or Grass):
+                        superEffective = True
+                    elif myPokeType == (Electric or Rock or Steel):
+                        notEffective = True
+
+                elif oppPokeMove[typing] == Ghost:
+                    if myPokeType == (Ghost or Psychic):
+                        superEffective = True
+                    elif myPokeType == (Dark):
+                        notEffective = True
+                    elif myPokeType == Normal
+                        immune = True
+
+                elif oppPokeMove[typing] == Grass:
+                    if myPokeType == (Ground or Rock or Water):
+                        superEffective = True
+                    elif myPokeType == (Bug or Dragon or Fire or Flying or Grass or Poison or Steel):
+                        notEffective = True
+
+                elif oppPokeMove[typing] == Ground:
+                    if myPokeType == (Electric or Fire or Poison or Rock or Steel):
+                        superEffective = True
+                    elif myPokeType == (Bug or Grass):
+                        notEffective = True
+                    elif myPokeType == Flying
+                        immune = True
+
+                elif oppPokeMove[typing] == Ice:
+                    if myPokeType == (Dragon or Flying or Grass or Ground):
+                        superEffective = True
+                    elif myPokeType == (Fire or Ice or Steel or Water):
+                        notEffective = True
+
+                elif oppPokeMove[typing] == Normal:
+                    if myPokeType == (Rock or Steel):
+                        notEffective = True
+                    elif myPokeType == Ghost:
+                        immune = True
+
+                elif oppPokeMove[typing] == Poison:
+                    if myPokeType == Grass:
+                        superEffective = True
+                    elif myPokeType == (Ghost or Ground or Poison or Rock):
+                        notEffective = True
+                    elif myPokeType == Steel:
+                        immune = True
+
+                elif oppPokeMove[typing] == Psychic:
+                    if myPokeType == (Fighting or Poison):
+                        superEffective = True
+                    elif myPokeType == (Psychic or Steel):
+                        notEfffective = True
+                    elif myPokeType = Dark
+                        immune = True
+
+                elif oppPokeMove[typing] == Rock:
+                    if myPokeType == (Bug or Fire or Flying or Ice):
+                        superEffective = True
+                    elif myPokeType == (Fighting or Ground or Steel):
+                        notEffective = True
+
+                elif oppPokeMove[typing] == Steel:
+                    if myPokeType == (Ice or Rock):
+                        superEffective = True
+                    elif myPokeType == (Electric or Fire or Steel or Water):
+                        notEffective = True
+
+                elif oppPokeMove[typing] == Water:
+                    if myPokeType == (Fire or Ground or Rock):
+                        superEffective = True
+                    elif myPokeType == (Dragon or Grass or Water):
+                        notEffective = True
+
                 moveMiss = random.randint(1,15)
                 if moveMiss = 1:
                     print('You Missed')
@@ -190,30 +430,35 @@ print(pokePick())
                             if confusion = 1:
                                 oppPokeHP = oppPokeHP - 40
                                 print('Your pokemon hit itself in its confusion')
-                            else:
+                            else
                                 moveCrit = random.randint(1,10000)
                                 if moveCrit <= 625:
                                     crit = True
                                 else:
                                     crit = False
-
-                                if crit:
-                                    oppPokeMove = oppPokeMove * 2
-                                    myPokeHP - oppPokeMove
-                                else:
-                                    myPokeHP - oppPokeMove
                         else:
                                 moveCrit = random.randint(1,10000)
                                 if moveCrit <= 625:
                                     crit = True
                                 else:
                                     crit = False
-
                                 if crit:
-                                    oppPokeMove = oppPokeMove * 2
-                                    myPokeHP - oppPokeMove
+                                    if superEffective:
+                                        myPokeMove = myPokeMove * 4
+                                        oppPokeHP = oppPokeHP - myPokeMove
+                                    elif notEffective:
+                                        myPokeMove = myPokeMove * 2
+                                        oppPokeHP = oppPokeHP - myPokeMove
+                                    else:
+                                        myPokeMove = myPokeMove * 2
+                                        oppPokeHP = oppPokeHP - myPokeMove
                                 else:
-                                    myPokeHP - oppPokeMove
+                                    if superEffective:
+                                        myPokeMove = myPokeMove * 2
+                                        oppPokeHP = oppPokeHP - myPokeMove
+                                    else:
+                                        oppPokeHP = oppPokeHP - myPokeMove
+
             if myPokeStatus = Burned:
                 myPokeHP = myPokeHP - (myPokeHP * 0.0625)
             else:
