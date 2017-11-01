@@ -128,7 +128,6 @@ Pinsir = {'name': 'Pinsir', 'type1':'Bug', 'type2':'Bug', 'move1':'Body Slam', '
 
 Tauros = {'name': 'Tauros', 'type1':'Normal', 'type2':'Normal', 'move1':'Double Edge', 'move2':'Fire Blast', 'move3':'Horn Attack', 'move4':'Stone Edge', 'health':'..', 'speed':'..'}
 
-<<<<<<< HEAD
 Gyarados = {'type1':'Flying', 'type2':'Water', 'move1':'Hydro Pump', 'move2':'Dragon Pulse', 'move3':'Hurricane', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
 
 Lapras = {'type1':'Ice', 'type2':'Water', 'move1':'Ice Beam', 'move2':'Aqua Tail', 'move3':'COnfuse Ray', 'move4':'Hydro Pump', 'health':'..', 'speed':'..'}
@@ -143,7 +142,25 @@ Flareon = {'type1':'Fire', 'type2':'Fire', 'move1':'Flare Blitz', 'move2':'Fire 
 
 Porygon = {'type1':'Normal', 'type2':'Normal', 'move1':'Double Edge', 'move2':'Aerial Ace', 'move3':'Ice Beam', 'move4':'Psychic', 'health':'..', 'speed':'..'}
 
-select = {'1': Venusaur, '2': Charizard, '3': Blastoise, '4': Butterfree, '5': Beedrill, '6': Pidgeot, '7': Raticate, '8': Fearow, '9': Arbok, '10': Raichu, '11': Sandslash, '12': Nidoqueen, '13': Nidoking, '14': Clefable, '15': Ninetales, '16': Wigglytuff, '17': Golbat, '18': Vileplume, '19': Parasect, '20': Venomoth, '21': Dugtrio, '22': Persian, '23': Golduck, '24': Primeape, '25': Arcanine, '26': Poliwrath, '27': Alakazam, '28': Machamp, '29': Victreebel, '30': Tentacruel, '31': Golem, '32': Rapidash, '33': Slowbro, '34': Magneton, '35': Farfetchd, '36': Dodrio, '37': Dewgong, '38': Muk, '39': Cloyster, '40': Gengar, '41': Onix, '42': Hypno, '43': Kingler, '44': Electrode, '45': Exeggutor, '46': Marowak, '47': Hitmonlee, '48': Hitmonchan, '49': Lickitung, '50': Weezing, '51': Rhydon, '52': Chansey, '53': Tangela, '54': Kangaskhan, '55': Seadra, '56': Seaking, '57': Starmie, '58': Mr_Mime, '58': Scyther, '60': Jynx, '61': Electabuzz, '62': Magmar, '63': Pinsir, '64': Tauros, '65': 'Gyarados', '66': 'Lapras','67': 'Ditto', '68': 'Vaporeon', '69': 'Jolteon', '70': 'Flareon', '71': 'Porygon', '72': 'Omastar', '73': 'Kabutops', '74': 'Aerodactyl', '75': 'Snorlax',     '76': 'Articuno', '77': 'Zapdos', '78': 'Moltres', '79': 'Dragonite', '80': 'Mewtwo'}
+Omastar = {'type1':'Rock', 'type2':'Water', 'move1':'Hydro Pump', 'move2':'Ice Beam', 'move3':'Scald', 'move4':'Waterfall', 'health':'..', 'speed':'..'}
+
+Kabutops = {'type1':'Rock', 'type2':'Water', 'move1':'Double Edge', 'move2':'Aqua Tail', 'move3':'Night SLash', 'move4':'Mega Kick', 'health':'..', 'speed':'..'}
+
+Aerodactyl = {'type1':'Rock', 'type2':'Flying', 'move1':'Air Cutter', 'move2':'Aerial Ace', 'move3':'Dragon Pulse', 'move4':'Fire Blast', 'health':'..', 'speed':'..'}
+
+Snorlax = {'type1':'Normal', 'type2':'Normal', 'move1':'Dynamic Punch', 'move2':'Earthquake', 'move3':'Headbutt', 'move4':'Iron Head', 'health':'..', 'speed':'..'}
+
+Articuno = {'type1':'Ice', 'type2':'FLying', 'move1':'Ice Beam', 'move2':'Hurricane', 'move3':'Roost', 'move4':'DOuble Edge', 'health':'..', 'speed':'..'}
+
+Zapdos = {'type1':'Electric', 'type2':'Flying', 'move1':'Roost', 'move2':'Aerial Ace', 'move3':'Thunder', 'move4':'Thunder Wave', 'health':'..', 'speed':'..'}
+
+Moltres = {'type1':'Fire', 'type2':'Flying', 'move1':'Flare Blitz', 'move2':'Aerial Ace', 'move3':'Fire Blast', 'move4':'Hurricane', 'health':'..', 'speed':'..'}
+
+Dragonite = {'type1':'Dragon', 'type2':'Flying', 'move1':'Dragon Pulse', 'move2':'Earthquake', 'move3':'Draco meteor', 'move4':'Dynamic Punch', 'health':'..', 'speed':'..'}
+
+Mewtwo = {'type1':'Psychic', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Psystrike', 'move3':'Tri Attack', 'move4':'Shadow Ball', 'health':'..', 'speed':'..'}
+
+select = {'1': Venusaur, '2': Charizard, '3': Blastoise, '4': Butterfree, '5': Beedrill, '6': Pidgeot, '7': Raticate, '8': Fearow, '9': Arbok, '10': Raichu, '11': Sandslash, '12': Nidoqueen, '13': Nidoking, '14': Clefable, '15': Ninetales, '16': Wigglytuff, '17': Golbat, '18': Vileplume, '19': Parasect, '20': Venomoth, '21': Dugtrio, '22': Persian, '23': Golduck, '24': Primeape, '25': Arcanine, '26': Poliwrath, '27': Alakazam, '28': Machamp, '29': Victreebel, '30': Tentacruel, '31': Golem, '32': Rapidash, '33': Slowbro, '34': Magneton, '35': Farfetchd, '36': Dodrio, '37': Dewgong, '38': Muk, '39': Cloyster, '40': Gengar, '41': Onix, '42': Hypno, '43': Kingler, '44': Electrode, '45': Exeggutor, '46': Marowak, '47': Hitmonlee, '48': Hitmonchan, '49': Lickitung, '50': Weezing, '51': Rhydon, '52': Chansey, '53': Tangela, '54': Kangaskhan, '55': Seadra, '56': Seaking, '57': Starmie, '58': Mr_Mime, '58': Scyther, '60': Jynx, '61': Electabuzz, '62': Magmar, '63': Pinsir, '64': Tauros, '65': 'Gyarados', '66': 'Lapras','67': 'Ditto', '68': 'Vaporeon', '69': 'Jolteon', '70': 'Flareon', '71': 'Porygon', '72': 'Omastar', '73': 'Kabutops', '74': 'Aerodactyl', '75': 'Snorlax', '76': 'Articuno', '77': 'Zapdos', '78': 'Moltres', '79': 'Dragonite', '80': 'Mewtwo'}
 
 for x in select:
     print(x,':', select[x])
