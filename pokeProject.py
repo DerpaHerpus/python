@@ -147,8 +147,7 @@ Kingler = {'type1':'Water', 'type2':'Water', 'move1':'Crabhammer', 'move2':'Ice 
 
 Electrode = {'type1':'Electric', 'type2':'Electric', 'move1':'Thunder', 'move2':'Thunderbolt', 'move3':'Thunderwave', 'move4':'Wild Charge', 'health':'230', 'speed':'150'}
 
-<<<<<<< HEAD
-Exeggutor = {'type1':'Grass', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Double Edge', 'move3':'Egg Bomb', 'move4':'Explosion', 'health':'..', 'speed':'..'}
+Exeggutor = {'type1':'Grass', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Double Edge', 'move3':'Egg Bomb', 'move4':'Explosion', 'health':'300', 'speed':'55'}
 
 Marowak = {'type1':'Ground', 'type2':'Ground', 'move1':'Bonemerang', 'move2':'Double Edge', 'move3':'Dyanmic Punch', 'move4':'Earthquake', 'health':'..', 'speed':'..'}
 
@@ -163,9 +162,6 @@ Weezing = {'type1':'Poison', 'type2':'Poison', 'move1':'Explosion', 'move2':'Slu
 Rhydon = {'type1':'Ground', 'type2':'Rock', 'move1':'Earthquake', 'move2':'Double Edge', 'move3':'Drill Run', 'move4':'Headbutt', 'health':'..', 'speed':'..'}
 
 Chansey = {'type1':'Normal', 'type2':'Normal', 'move1':'Body Slam', 'move2':'Drain Punch', 'move3':'Egg Bomb', 'move4':'Headbutt', 'health':'..', 'speed':'..'}
-=======
-Exeggutor = {'type1':'Grass', 'type2':'Psychic', 'move1':'Flamethrower', 'move2':'Flare Blitz', 'move3':'Mega Horn', 'move4':'Inferno', 'health':'300', 'speed':'55'}
->>>>>>> eac40a146b2540d539b30a8329a972bbee704e58
 
 print(pokePick())
 
