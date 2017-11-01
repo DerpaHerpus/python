@@ -203,14 +203,16 @@ def pokeBattle():
     if myPoke == 1 or select[Poke1]:
         print('')
         print("These are your Pokemon's moves")
-        print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
+        myActivePokeMoves = ((select[Poke1]['move1']) + (select[Poke1]['move2']) + (select[Poke1]['move3']) + (select[Poke1]['move4']))
+        print(myActivePokeMoves)
     elif myPoke == 2 or select[Poke2]:
         print('')
-        print(((select[Poke2])['move1']) + ((select[Poke2])['move2']) + ((select[Poke2])['move3']) + ((select[Poke2])['move4']))
+        myActivePokeMoves = ((select[Poke2]['move1']) + (select[Poke2]['move2']) + (select[Poke2]['move3']) + (select[Poke2]['move4']))
+        print(myActivePokeMoves)
     elif myPoke == 3 or select[Poke3]:
         print('')
-        print(((select[Poke3])['move1']) + ((select[Poke3])['move2']) + ((select[Poke3])['move3']) + ((select[Poke3])['move4']))
-
+        myActivePokeMoves = ((select[Poke3]['move1']) + (select[Poke3]['move2']) + (select[Poke3]['move3']) + (select[Poke3]['move4']))
+        print(myActivePokeMoves)
 
 print(pokePick())
 
@@ -218,8 +220,9 @@ def battle():
     play_again = True
     while play_again:
         winner = None
+        oppTeam = [select[random.randint(1,80)], select[random.randint(1,80)], select[random.randint(1,80)]]
         myPokeHP = select[Poke1]['health']
-        opponentPokeHP = 100
+        opponentPokeHP = select[oppTeam[1]]['health']
 
         myPokeMoveset = myActivePokeMoves
         opponentPokeMoveset = oppActivePokeMoves
