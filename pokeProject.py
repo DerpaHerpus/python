@@ -57,6 +57,7 @@ def pokeBattle():
     myPoke = input('1: ' + select[Poke1] + ' 2: ' + select[Poke2] + ' 3: ' + select[Poke3] + ' ' )
     if myPoke == 1 or select[Poke1]:
         print('')
+        print("These are your Pokemon's moves")
         print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
     if myPoke == 2 or select[Poke2]:
         print('')
