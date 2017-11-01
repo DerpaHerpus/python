@@ -1,74 +1,5 @@
 import random
 
-select = {'1': Venusaur, '2': Charizard, '3': Blastoise, '4': Butterfree, '5': 'Beedrill', '6': 'Pidgeot', '7': 'Raticate', '8': 'Fearow', '9': 'Arbok', '10    ': 'Raichu', '11': 'Sandslash', '12': 'Nidoqueen', '13': 'Nidoking', '14': 'Clefable', '15': 'Ninetales', '16': 'Wigglytuff', '17': 'Golbat', '18': 'Vileplume', '19    ': 'Parasect', '20': 'Venomoth', '21': 'Dugtrio', '22': 'Persian', '23': 'Golduck', '24': 'Primeape', '25': 'Arcanine', '26': 'Poliwrath', '27': 'Alakazam', '28': '    Machamp', '29': 'Victreebel', '30': 'Tentacruel', '31': 'Golem', '32': 'Rapidash', '33': 'Slowbro', '34': 'Magneton', '35': "Farfetch'd", '36': 'Dodrio', '37': 'Dew    gong', '38': 'Muk', '39': 'Cloyster', '40': 'Gengar', '41': 'Onix', '42': 'Hypno', '43': 'Kingler', '44': 'Electode', '45': 'Exeggutor', '46': 'Marowak', '47': 'Hit    monlee', '48': 'Hitmonchan', '49': 'Lickitung', '50': 'Weezing', '51': 'Rhydon', '52': 'Chansey', '53': 'Tangela', '54': 'Kangaskhan', '55': 'Seadra', '56': 'Seaking', '57': 'Starmie', '58': 'Mr. Mime', '58': 'Scyther', '60': 'Jynx', '61': 'Electabuzz', '62': 'Magmar', '63': 'Pinsir', '64': 'Tauros', '65': 'Gyarados', '66': 'Lapras', '67': 'Ditto', '68': 'Vaporeon', '69': 'Jolteon', '70': 'Flareon', '71': 'Porygon', '72': 'Omastar', '73': 'Kabutops', '74': 'Aerodactyl', '75': 'Snorlax',     '76': 'Articuno', '77': 'Zapdos', '78': 'Moltres', '79': 'Dragonite', '80': 'Mewtwo'}
-
-for x in select:
-    print(x,':', select[x])
-def pokePick():
-    global Poke1
-    global Poke2
-    global Poke3
-    print('')
-    Poke1 = input('Select first pokemon number:' )
-    print('')
-    Poke2 = input('Select second pokemon number:' )
-    print('')
-    Poke3 = input('Select third pokemon number:' )
-    print('')
-    print(select[Poke1] + ', ' + select[Poke2] + ', ' + select[Poke3])
-    def confirmSelect():
-        ready = input('Are these the pokemon you want?(Yes or No)' )
-        if ready == 'No':
-            print(pokePick())
-        elif ready == 'N':
-            print(pokePick())
-        elif ready == 'no':
-            print(pokePick())
-        elif ready == 'n':
-            print(pokePick())
-        elif ready == 'Yes':
-            print('Good Choice!')
-            print(pokeBattle())
-        elif ready == 'Y':
-            print('Good Choice!')
-            print(pokeBattle())
-        elif ready == 'yes':
-            print('Good Choice!')
-            print(pokeBattle())
-        elif ready == 'y':
-            print('Good Choice!')
-            print(pokeBattle())
-        elif ready is not 'Yes' or 'No':
-            print('')
-            print('Please answer yes or no')
-            return confirmSelect()
-    print(confirmSelect())
-
-def pokeBattle():
-    Team = [select[Poke1], select[Poke2], select[Poke3]]
-    print('')
-    print("These are your Pokemon!")
-    print('')
-    print(Team)
-    print('')
-    print("Alright, now it's time to battle!")
-    print('')
-    print('Select your first pokemon')
-    print('1: ' + select[Poke1] + ' 2: ' + select[Poke2] + ' 3: ' + select[Poke3] + ' ' )
-    myPoke = input('Please type number of the pokemon you want to be first: ')
-    print(select[Poke1]['move1'])
-    print(myPoke)
-    if myPoke == 1 or select[Poke1]:
-        print('')
-        print("These are your Pokemon's moves")
-        print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
-    elif myPoke == 2 or select[Poke2]:
-        print('')
-        print(((select[Poke2])['move1']) + ((select[Poke2])['move2']) + ((select[Poke2])['move3']) + ((select[Poke2])['move4']))
-    elif myPoke == 3 or select[Poke3]:
-        print('')
-        print(((select[Poke3])['move1']) + ((select[Poke3])['move2']) + ((select[Poke3])['move3']) + ((select[Poke3])['move4']))
-
 Venusaur = {'type1': 'Grass', 'type2': 'Poison', 'move1': 'Sludge Bomb', 'move2': 'Giga Drain', 'move3': 'Synthesis', 'move4': 'Earthquake', 'health': '270', 'speed': '80'}
 
 Charizard = {'type1': 'Fire', 'type2': 'Flying', 'move1': 'Flare Blitz', 'move2': 'Dragon Claw', 'move3': 'Earthquake', 'move4': 'Roost', 'health': '266', 'speed': '100'}
@@ -196,6 +127,75 @@ Magmar = {'type1':'Fire', 'type2':'Fire', 'move1':'Fire Punch', 'move2':'Fire Bl
 Pinsir = {'type1':'Bug', 'type2':'Bug', 'move1':'Body Slam', 'move2':'Double Edge', 'move3':'Fury Cutter', 'move4':'X-Scissor', 'health':'..', 'speed':'..'}
 
 Tauros = {'type1':'Normal', 'type2':'Normal', 'move1':'Double Edge', 'move2':'Fire Blast', 'move3':'Horn Attack', 'move4':'Stone Edge', 'health':'..', 'speed':'..'}
+
+select = {'1': Venusaur, '2': Charizard, '3': Blastoise, '4': Butterfree, '5': 'Beedrill', '6': 'Pidgeot', '7': 'Raticate', '8': 'Fearow', '9': 'Arbok', '10    ': 'Raichu', '11': 'Sandslash', '12': 'Nidoqueen', '13': 'Nidoking', '14': 'Clefable', '15': 'Ninetales', '16': 'Wigglytuff', '17': 'Golbat', '18': 'Vileplume', '19    ': 'Parasect', '20': 'Venomoth', '21': 'Dugtrio', '22': 'Persian', '23': 'Golduck', '24': 'Primeape', '25': 'Arcanine', '26': 'Poliwrath', '27': 'Alakazam', '28': '    Machamp', '29': 'Victreebel', '30': 'Tentacruel', '31': 'Golem', '32': 'Rapidash', '33': 'Slowbro', '34': 'Magneton', '35': "Farfetch'd", '36': 'Dodrio', '37': 'Dew    gong', '38': 'Muk', '39': 'Cloyster', '40': 'Gengar', '41': 'Onix', '42': 'Hypno', '43': 'Kingler', '44': 'Electode', '45': 'Exeggutor', '46': 'Marowak', '47': 'Hit    monlee', '48': 'Hitmonchan', '49': 'Lickitung', '50': 'Weezing', '51': 'Rhydon', '52': 'Chansey', '53': 'Tangela', '54': 'Kangaskhan', '55': 'Seadra', '56': 'Seaking', '57': 'Starmie', '58': 'Mr. Mime', '58': 'Scyther', '60': 'Jynx', '61': 'Electabuzz', '62': 'Magmar', '63': 'Pinsir', '64': 'Tauros', '65': 'Gyarados', '66': 'Lapras', '67': 'Ditto', '68': 'Vaporeon', '69': 'Jolteon', '70': 'Flareon', '71': 'Porygon', '72': 'Omastar', '73': 'Kabutops', '74': 'Aerodactyl', '75': 'Snorlax',     '76': 'Articuno', '77': 'Zapdos', '78': 'Moltres', '79': 'Dragonite', '80': 'Mewtwo'}
+
+for x in select:
+    print(x,':', select[x])
+def pokePick():
+    global Poke1
+    global Poke2
+    global Poke3
+    print('')
+    Poke1 = input('Select first pokemon number:' )
+    print('')
+    Poke2 = input('Select second pokemon number:' )
+    print('')
+    Poke3 = input('Select third pokemon number:' )
+    print('')
+    print(select[Poke1] + ', ' + select[Poke2] + ', ' + select[Poke3])
+    def confirmSelect():
+        ready = input('Are these the pokemon you want?(Yes or No)' )
+        if ready == 'No':
+            print(pokePick())
+        elif ready == 'N':
+            print(pokePick())
+        elif ready == 'no':
+            print(pokePick())
+        elif ready == 'n':
+            print(pokePick())
+        elif ready == 'Yes':
+            print('Good Choice!')
+            print(pokeBattle())
+        elif ready == 'Y':
+            print('Good Choice!')
+            print(pokeBattle())
+        elif ready == 'yes':
+            print('Good Choice!')
+            print(pokeBattle())
+        elif ready == 'y':
+            print('Good Choice!')
+            print(pokeBattle())
+        elif ready is not 'Yes' or 'No':
+            print('')
+            print('Please answer yes or no')
+            return confirmSelect()
+    print(confirmSelect())
+
+def pokeBattle():
+    Team = [select[Poke1], select[Poke2], select[Poke3]]
+    print('')
+    print("These are your Pokemon!")
+    print('')
+    print(Team)
+    print('')
+    print("Alright, now it's time to battle!")
+    print('')
+    print('Select your first pokemon')
+    print('1: ' + select[Poke1] + ' 2: ' + select[Poke2] + ' 3: ' + select[Poke3] + ' ' )
+    myPoke = input('Please type number of the pokemon you want to be first: ')
+    print(select[Poke1]['move1'])
+    print(myPoke)
+    if myPoke == 1 or select[Poke1]:
+        print('')
+        print("These are your Pokemon's moves")
+        print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
+    elif myPoke == 2 or select[Poke2]:
+        print('')
+        print(((select[Poke2])['move1']) + ((select[Poke2])['move2']) + ((select[Poke2])['move3']) + ((select[Poke2])['move4']))
+    elif myPoke == 3 or select[Poke3]:
+        print('')
+        print(((select[Poke3])['move1']) + ((select[Poke3])['move2']) + ((select[Poke3])['move3']) + ((select[Poke3])['move4']))
 
 
 print(pokePick())
