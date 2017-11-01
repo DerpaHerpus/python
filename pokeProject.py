@@ -119,6 +119,36 @@ Victreebel = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'
 
 Tentacruel = {'type1':'Poison', 'type2':'Water', 'move1':'Confuse Ray', 'move2':'Sludge Bomb', 'move3':'Hydro Pump', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
 
+Golem = {'type1':'Ground', 'type2':'Rock', 'move1':'Body Slam', 'move2':'Earthquake', 'move3':'Explosion', 'move4':'Rock Climb', 'health':'..', 'speed':'..'}
+
+Rapidash = {'type1':'Fire', 'type2':'Fire', 'move1':'Flamethrower', 'move2':'Flare Blitz', 'move3':'Mega Horn', 'move4':'Inferno', 'health':'..', 'speed':'..'}
+
+Slowbro = {'type1':'Psychic', 'type2':'Water', 'move1':'Aqua Tail', 'move2':'Confusion', 'move3':'Headbutt', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+
+Magneton = {'type1':'Eletric', 'type2':'Steel', 'move1':'Spark', 'move2':'Thunder', 'move3':'Thunderwave', 'move4':'Wild Charge', 'health':'..', 'speed':'..'}
+
+Farfetchd = {'type1':'Normal', 'type2':'Flying', 'move1':'Aerial Ace', 'move2':'Air Cutter', 'move3':'Headbutt', 'move4':'Leaf Blade', 'health':'..', 'speed':'..'}
+
+Dodrio = {'type1':'Flying', 'type2':'Normal', 'move1':'Aerial Ace', 'move2':'Brave Bird', 'move3':'Drill Peck', 'move4':'Feint Attack', 'health':'..', 'speed':'..'}
+
+Dewgong = {'type1':'Ice', 'type2':'Water', 'move1':'Aqua Tail', 'move2':'Drill Run', 'move3':'Ice Beam', 'move4':'Slam', 'health':'..', 'speed':'..'}
+
+Muk = {'type1':'Poison', 'type2':'Poison', 'move1':'Explosion', 'move2':'Gunk Shot', 'move3':'Poison Gas', 'move4':'Lick', 'health':'..', 'speed':'..'}
+
+Cloyster = {'type1':'Ice', 'type2':'Water', 'move1':'Frost Breath', 'move2':'Hydro Pump', 'move3':'Ice Beam', 'move4':'Self-Destruct', 'health':'..', 'speed':'..'}
+
+Gengar = {'type1':'Ghost', 'type2':'Poison', 'move1':'Dark Pulse', 'move2':'Shadow Claw', 'move3':'Shadow Punch', 'move4':'Sludge Bomb', 'health':'..', 'speed':'..'}
+
+Onix = {'type1':'Ground', 'type2':'Rock', 'move1':'Body Slam', 'move2':'Double Edge', 'move3':'Earthquake', 'move4':'Explosion', 'health':'..', 'speed':'..'}
+
+Hypno = {'type1':'Psychic', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Mega Punch', 'move3':'Tri Attack', 'move4':'Zen Headbutt', 'health':'..', 'speed':'..'}
+
+Kingler = {'type1':'Water', 'type2':'Water', 'move1':'Crabhammer', 'move2':'Ice Beam', 'move3':'Scald', 'move4':'Surf', 'health':'..', 'speed':'..'}
+
+Electrode = {'type1':'Electric', 'type2':'Electric', 'move1':'Thunder', 'move2':'Thunderbolt', 'move3':'Thunderwave', 'move4':'Wild Charge', 'health':'..', 'speed':'..'}
+
+Exeggutor = {'type1':'Grass', 'type2':'Psychic', 'move1':'Flamethrower', 'move2':'Flare Blitz', 'move3':'Mega Horn', 'move4':'Inferno', 'health':'..', 'speed':'..'}
+
 print(pokePick())
 
     play_again = True
