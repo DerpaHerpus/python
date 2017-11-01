@@ -147,7 +147,21 @@ Kingler = {'type1':'Water', 'type2':'Water', 'move1':'Crabhammer', 'move2':'Ice 
 
 Electrode = {'type1':'Electric', 'type2':'Electric', 'move1':'Thunder', 'move2':'Thunderbolt', 'move3':'Thunderwave', 'move4':'Wild Charge', 'health':'..', 'speed':'..'}
 
-Exeggutor = {'type1':'Grass', 'type2':'Psychic', 'move1':'Flamethrower', 'move2':'Flare Blitz', 'move3':'Mega Horn', 'move4':'Inferno', 'health':'..', 'speed':'..'}
+Exeggutor = {'type1':'Grass', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Double Edge', 'move3':'Egg Bomb', 'move4':'Explosion', 'health':'..', 'speed':'..'}
+
+Marowak = {'type1':'Ground', 'type2':'Ground', 'move1':'Bonemerang', 'move2':'Double Edge', 'move3':'Dyanmic Punch', 'move4':'Earthquake', 'health':'..', 'speed':'..'}
+
+Hitmonlee = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Blaze Kick', 'move2':'High Jump Kick', 'move3':'Mega Kick', 'move4':'Low Kick', 'health':'..', 'speed':'..'}
+
+Hitmonchan = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Drain Punch', 'move2':'Ice Punch', 'move3':'Mach Punch', 'move4':'Fire Punch', 'health':'..', 'speed':'..'}
+
+Lickitung = {'type1':'Normal', 'type2':'Normal', 'move1':'Aqua Tail', 'move2':'Body Slam', 'move3':'Dynamic Punch', 'move4':'Headbutt', 'health':'..', 'speed':'..'}
+
+Weezing = {'type1':'Poison', 'type2':'Poison', 'move1':'Explosion', 'move2':'Sludge Bomb', 'move3':'Poison Gas', 'move4':'Self Destruct', 'health':'..', 'speed':'..'}
+
+Rhydon = {'type1':'Ground', 'type2':'Rock', 'move1':'Earthquake', 'move2':'Double Edge', 'move3':'Drill Run', 'move4':'Headbutt', 'health':'..', 'speed':'..'}
+
+Chansey = {'type1':'Normal', 'type2':'Normal', 'move1':'Body Slam', 'move2':'Drain Punch', 'move3':'Egg Bomb', 'move4':'Headbutt', 'health':'..', 'speed':'..'}
 
 print(pokePick())
 
