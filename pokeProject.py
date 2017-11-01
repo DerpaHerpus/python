@@ -55,9 +55,15 @@ def pokeBattle():
     print('')
     print('Select your first pokemon')
     myPoke = input('1: ' + select[Poke1] + ' 2: ' + select[Poke2] + ' 3: ' + select[Poke3] + ' ' )
-    if myPoke == '1':
+    if myPoke == 1 or select[Poke1]:
         print('')
         print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
+    if myPoke == 2 or select[Poke2]:
+        print('')
+        print(((select[Poke2])['move1']) + ((select[Poke2])['move2']) + ((select[Poke2])['move3']) + ((select[Poke2])['move4']))
+    if myPoke == 3 or select[Poke3]:
+        print('')
+        print(((select[Poke3])['move1']) + ((select[Poke3])['move2']) + ((select[Poke3])['move3']) + ((select[Poke3])['move4']))
 
 Venusaur = {'type1': 'Grass', 'type2': 'Poison', 'move1': 'Sludge Bomb', 'move2': 'Giga Drain', 'move3': 'Synthesis', 'move4': 'Earthquake', 'health': '270', 'speed': '80'}
 
@@ -165,6 +171,7 @@ Chansey = {'type1':'Normal', 'type2':'Normal', 'move1':'Body Slam', 'move2':'Dra
 
 print(pokePick())
 
+def battle():
     play_again = True
     while play_again:
         winner = None
@@ -189,7 +196,7 @@ print(pokePick())
                 myPokeTurn = False
                 oppPokeTurn = True
 
-        while (myPokeHP != 0 or oppPokeHP != 0 or myPokeHP <= 0 or oppPokeHP <= 0)
+        while (myPokeHP != 0 or oppPokeHP != 0 or myPokeHP <= 0 or oppPokeHP <= 0):
             if myPokeTurn:
                 print("\nPlease select a move:")
                 print(myPokeMoveset)
@@ -218,7 +225,7 @@ print(pokePick())
                         superEffective = True
                     elif oppPokeType == (Dragon or Electric or Grass):
                         notEffective = True
-                    elif oppPokeType == Ground
+                    elif oppPokeType == Ground:
                         immune = True
 
                 elif myPokeMove[typing] == Fighting:
@@ -246,7 +253,7 @@ print(pokePick())
                         superEffective = True
                     elif oppPokeType == (Dark):
                         notEffective = True
-                    elif oppPokeType == Normal
+                    elif oppPokeType == Normal:
                         immune = True
 
                 elif myPokeMove[typing] == Grass:
@@ -260,7 +267,7 @@ print(pokePick())
                         superEffective = True
                     elif oppPokeType == (Bug or Grass):
                         notEffective = True
-                    elif oppPokeType == Flying
+                    elif oppPokeType == Flying:
                         immune = True
 
                 elif myPokeMove[typing] == Ice:
@@ -288,7 +295,7 @@ print(pokePick())
                         superEffective = True
                     elif oppPokeType == (Psychic or Steel):
                         notEfffective = True
-                    elif oppPokeType = Dark
+                    elif oppPokeType == Dark:
                         immune = True
 
                 elif myPokeMove[typing] == Rock:
@@ -310,18 +317,18 @@ print(pokePick())
                         notEffective = True
 
                 moveMiss = random.randint(1,15)
-                if moveMiss = 1:
+                if moveMiss == 1:
                     print('You Missed')
                 else:
-                    if myPokeStatus = Paralyzed or Frozen:
+                    if myPokeStatus == Paralyzed or Frozen:
                         turnParalyze = random.randint(1,4)
-                        if turnParalyze = 1:
+                        if turnParalyze == 1:
                             print('Your Pokemon cannot move')
                         else:
                             pass
-                        if myPokeConfusion = True:
+                        if myPokeConfusion == True:
                             confusion = random.randint(1,2)
-                            if confusion = 1:
+                            if confusion == 1:
                                 myPokeHP = myPokeHP - 40
                                 print('Your pokemon hit itself in its confusion')
                             else:
@@ -335,7 +342,8 @@ print(pokePick())
                                     if superEffective:
                                         myPokeMove = myPokeMove * 4
                                         oppPokeHP = oppPokeHP - myPokeMove
-                                    elif notEffective
+                                    elif notEffective:
+                                        oppPokeHP = oppPokeHP - myPokeMove
                                     else:
                                         myPokeMove = myPokeMove * 2
                                         oppPokeHP = oppPokeHP - myPokeMove
@@ -352,10 +360,10 @@ print(pokePick())
                                 else:
                                     crit = False
                                     if crit:
-                                    myPokeMove = myPokeMove * 2
-                                    oppPokeHP - myPokeMove
-                                else:
-                                    oppPokeHP - myPokeMove
+                                        myPokeMove = myPokeMove * 2
+                                        oppPokeHP - myPokeMove
+                                    else:
+                                        oppPokeHP - myPokeMove
             else:
                 oppPokeMove = oppPokeMoveset[random.randint(1,4)]
 
@@ -382,7 +390,7 @@ print(pokePick())
                         superEffective = True
                     elif myPokeType == (Dragon or Electric or Grass):
                         notEffective = True
-                    elif myPokeType == Ground
+                    elif myPokeType == Ground:
                         immune = True
 
                 elif oppPokeMove[typing] == Fighting:
@@ -410,7 +418,7 @@ print(pokePick())
                         superEffective = True
                     elif myPokeType == (Dark):
                         notEffective = True
-                    elif myPokeType == Normal
+                    elif myPokeType == Normal:
                         immune = True
 
                 elif oppPokeMove[typing] == Grass:
@@ -424,7 +432,7 @@ print(pokePick())
                         superEffective = True
                     elif myPokeType == (Bug or Grass):
                         notEffective = True
-                    elif myPokeType == Flying
+                    elif myPokeType == Flying:
                         immune = True
 
                 elif oppPokeMove[typing] == Ice:
@@ -452,7 +460,7 @@ print(pokePick())
                         superEffective = True
                     elif myPokeType == (Psychic or Steel):
                         notEfffective = True
-                    elif myPokeType = Dark
+                    elif myPokeType == Dark:
                         immune = True
 
                 elif oppPokeMove[typing] == Rock:
@@ -474,21 +482,21 @@ print(pokePick())
                         notEffective = True
 
                 moveMiss = random.randint(1,15)
-                if moveMiss = 1:
+                if moveMiss == 1:
                     print('You Missed')
                 else:
-                    if oppPokeStatus = Paralyzed or Frozen:
+                    if oppPokeStatus == Paralyzed or Frozen:
                         turnParalyze = random.randint(1,4)
-                        if turnParalyze = 1:
+                        if turnParalyze == 1:
                             print('Your Pokemon cannot move')
                         else:
                             pass
-                        if oppPokeConfusion = True:
+                        if oppPokeConfusion == True:
                             confusion = random.randint(1,2)
-                            if confusion = 1:
+                            if confusion == 1:
                                 oppPokeHP = oppPokeHP - 40
                                 print('Your pokemon hit itself in its confusion')
-                            else
+                            else:
                                 moveCrit = random.randint(1,10000)
                                 if moveCrit <= 625:
                                     crit = True
@@ -517,27 +525,27 @@ print(pokePick())
                                     else:
                                         oppPokeHP = oppPokeHP - myPokeMove
 
-            if myPokeStatus = Burned:
+            if myPokeStatus == Burned:
                 myPokeHP = myPokeHP - (myPokeHP * 0.0625)
             else:
                 pass
 
-            if myPokeStatus = Poisoned:
+            if myPokeStatus == Poisoned:
                 myPokeHP = myPokeHP - (myPokeHP * 0.0625)
             else:
                 pass
                  
-            if oppPokeStatus = Burned:
+            if oppPokeStatus == Burned:
                 oppPokeHP = oppPokeHP - (oppPokeHP * 0.0625)
             else:
                 pass
 
-             if oppPokeStatus = Poisoned:
-                 oppPokeHP = oppPokeHP - (oppPokeHP * 0.0625)
-             else:
-                 pass
+            if oppPokeStatus == Poisoned:
+                oppPokeHP = oppPokeHP - (oppPokeHP * 0.0625)
+            else:
+                pass
 
-         if oppPokeHP <= 0:
-             winner = player
-         elif myPokeHP <= 0:
-             winner = opponent
+        if oppPokeHP <= 0:
+            winner = player
+        elif myPokeHP <= 0:
+            winner = opponent
