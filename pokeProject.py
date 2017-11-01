@@ -128,6 +128,21 @@ Pinsir = {'type1':'Bug', 'type2':'Bug', 'move1':'Body Slam', 'move2':'Double Edg
 
 Tauros = {'type1':'Normal', 'type2':'Normal', 'move1':'Double Edge', 'move2':'Fire Blast', 'move3':'Horn Attack', 'move4':'Stone Edge', 'health':'..', 'speed':'..'}
 
+Gyarados = {'type1':'Flying', 'type2':'Water', 'move1':'Hydro Pump', 'move2':'Dragon Pulse', 'move3':'Hurricane', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+
+Lapras = {'type1':'Ice', 'type2':'Water', 'move1':'Ice Beam', 'move2':'Aqua Tail', 'move3':'COnfuse Ray', 'move4':'Hydro Pump', 'health':'..', 'speed':'..'}
+
+Ditto = {'type1':'Normal', 'type2':'Normal', 'move1':'Transform', 'move2':'Transform', 'move3':'Transform', 'move4':'Transform', 'health':'..', 'speed':'..'}
+
+Vaporeon = {'type1':'Water', 'type2':'Water' 'move1':'Water Pulse', 'move2':'Water Fall', 'move3':'Swift', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+
+Jolteon = {'type1':'Electric', 'type2':'Electric', 'move1':'Thunderbolt', 'move2':'Discharge', 'move3':'Thunder Fang', 'move4':'Thunder Wave', 'health':'..', 'speed':'..'}
+
+Flareon = {'type1':'Fire', 'type2':'Fire', 'move1':'Flare Blitz', 'move2':'Fire Blast', 'move3':'Lava Plume', 'move4':"Will-O-Wisp", 'health':'..', 'speed':'..'}
+
+Porygon = {'type1':'Normal', 'type2':'Normal', 'move1':'Double Edge', 'move2':'Aerial Ace', 'move3':'Ice Beam', 'move4':'Psychic', 'health':'..', 'speed':'..'}
+
+
 select = {'1': Venusaur, '2': Charizard, '3': Blastoise, '4': Butterfree, '5': 'Beedrill', '6': 'Pidgeot', '7': 'Raticate', '8': 'Fearow', '9': 'Arbok', '10    ': 'Raichu', '11': 'Sandslash', '12': 'Nidoqueen', '13': 'Nidoking', '14': 'Clefable', '15': 'Ninetales', '16': 'Wigglytuff', '17': 'Golbat', '18': 'Vileplume', '19    ': 'Parasect', '20': 'Venomoth', '21': 'Dugtrio', '22': 'Persian', '23': 'Golduck', '24': 'Primeape', '25': 'Arcanine', '26': 'Poliwrath', '27': 'Alakazam', '28': '    Machamp', '29': 'Victreebel', '30': 'Tentacruel', '31': 'Golem', '32': 'Rapidash', '33': 'Slowbro', '34': 'Magneton', '35': "Farfetch'd", '36': 'Dodrio', '37': 'Dew    gong', '38': 'Muk', '39': 'Cloyster', '40': 'Gengar', '41': 'Onix', '42': 'Hypno', '43': 'Kingler', '44': 'Electode', '45': 'Exeggutor', '46': 'Marowak', '47': 'Hit    monlee', '48': 'Hitmonchan', '49': 'Lickitung', '50': 'Weezing', '51': 'Rhydon', '52': 'Chansey', '53': 'Tangela', '54': 'Kangaskhan', '55': 'Seadra', '56': 'Seaking', '57': 'Starmie', '58': 'Mr. Mime', '58': 'Scyther', '60': 'Jynx', '61': 'Electabuzz', '62': 'Magmar', '63': 'Pinsir', '64': 'Tauros', '65': 'Gyarados', '66': 'Lapras', '67': 'Ditto', '68': 'Vaporeon', '69': 'Jolteon', '70': 'Flareon', '71': 'Porygon', '72': 'Omastar', '73': 'Kabutops', '74': 'Aerodactyl', '75': 'Snorlax',     '76': 'Articuno', '77': 'Zapdos', '78': 'Moltres', '79': 'Dragonite', '80': 'Mewtwo'}
 
 for x in select:
