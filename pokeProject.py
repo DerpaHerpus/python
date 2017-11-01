@@ -198,19 +198,23 @@ def pokeBattle():
     print('Select your first pokemon')
     print('1: ' + select[Poke1] + ' 2: ' + select[Poke2] + ' 3: ' + select[Poke3] + ' ' )
     myPoke = input('Please type number of the pokemon you want to be first: ')
-    print(select[Poke1]['move1'])
-    print(myPoke)
+
     if myPoke == 1 or select[Poke1]:
         print('')
         print("These are your Pokemon's moves")
+        myActivePoke = select[Poke1]
         myActivePokeMoves = ((select[Poke1]['move1']) + (select[Poke1]['move2']) + (select[Poke1]['move3']) + (select[Poke1]['move4']))
         print(myActivePokeMoves)
     elif myPoke == 2 or select[Poke2]:
         print('')
+        print("These are your Pokemon's moves")
+        myActivePoke = select[Poke2]
         myActivePokeMoves = ((select[Poke2]['move1']) + (select[Poke2]['move2']) + (select[Poke2]['move3']) + (select[Poke2]['move4']))
         print(myActivePokeMoves)
     elif myPoke == 3 or select[Poke3]:
         print('')
+        print("These are your Pokemon's moves")
+        myActivePoke = select[Poke3]
         myActivePokeMoves = ((select[Poke3]['move1']) + (select[Poke3]['move2']) + (select[Poke3]['move3']) + (select[Poke3]['move4']))
         print(myActivePokeMoves)
 
@@ -221,7 +225,7 @@ def battle():
     while play_again:
         winner = None
         oppTeam = [select[random.randint(1,80)], select[random.randint(1,80)], select[random.randint(1,80)]]
-        myPokeHP = select[Poke1]['health']
+        myPokeHP = myPoke['health']
         opponentPokeHP = select[oppTeam[1]]['health']
 
         myPokeMoveset = myActivePokeMoves
@@ -591,7 +595,24 @@ def battle():
             else:
                 pass
 
-        if oppPokeHP <= 0:
-            winner = player
-        elif myPokeHP <= 0:
-            winner = opponent
+            if myPokeHP == 0 or myPokeHP <= 0:
+                print('')
+                print('Your active pokemon has fainted')
+                print(Team - myActivePoke)
+                myActivePoke = input('Please pick from your remaining pokemon to set as your active pokemon: ')
+
+            if oppPokeHP == 0 or oppPokeHP <= 0:
+                print('')
+                print('Your opponents pokemon has fainted')
+                oppTeam = [::-1]
+                oppActivePoke = oppTeam[1]
+
+#Things that we do not have:
+    #Moves
+        #When the moves inflict a status
+        #Move typing
+    #Switching Pokemon and when your active pokemon dies, to change it
+    
+
+
+
