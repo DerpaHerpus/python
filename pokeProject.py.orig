@@ -103,6 +103,7 @@ Dugtrio = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Pu
 
 Persian = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Water Pulse', 'move3':'Night Slash', 'move4':'Power Gem', 'health':'..', 'speed':'..'}
 
+<<<<<<< HEAD
 Golduck = {'type1':'Water', 'type2':'Water', 'move1':'Ice Beam', 'move2':'Hydro Pump', 'move3':'Confuse Ray', 'move4':'Body Slam', 'health':'..', 'speed':'..'}
 
 Primeape = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Earthquake', 'move2':'Body Slam', 'move3':'Dynamic Punch', 'move4':'Fire Punch', 'health':'..', 'speed':'..'}
@@ -118,6 +119,10 @@ Machamp = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Dynamic Punch', 'mov
 Victreebel = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Leaf Blade', 'move4':'Power Whip', 'health':'..', 'speed':'..'}
 
 Tentacruel = {'type1':'Poison', 'type2':'Water', 'move1':'Confuse Ray', 'move2':'Sludge Bomb', 'move3':'Hydro Pump', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+
+=======
+Golduck = {'type1':'Water', 'type2':'Water', 'move1':'Hydro Pump', 'move2':'Scald', 'move3':'Ice Beam', 'move4':'Focus Blast', 'health':'..', 'speed':'..'}
+>>>>>>> 3b487ab6bcfdea2f39568605dc164f1f3137a4e5
 
 print(pokePick())
 
