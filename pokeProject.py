@@ -134,7 +134,7 @@ Lapras = {'type1':'Ice', 'type2':'Water', 'move1':'Ice Beam', 'move2':'Aqua Tail
 
 Ditto = {'type1':'Normal', 'type2':'Normal', 'move1':'Transform', 'move2':'Transform', 'move3':'Transform', 'move4':'Transform', 'health':'..', 'speed':'..'}
 
-Vaporeon = {'type1':'Water', 'type2':'Water' 'move1':'Water Pulse', 'move2':'Water Fall', 'move3':'Swift', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+Vaporeon = {'type1':'Water', 'type2':'Water', 'move1': 'Water Pulse', 'move2':'Water Fall', 'move3':'Swift', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
 
 Jolteon = {'type1':'Electric', 'type2':'Electric', 'move1':'Thunderbolt', 'move2':'Discharge', 'move3':'Thunder Fang', 'move4':'Thunder Wave', 'health':'..', 'speed':'..'}
 
@@ -142,6 +142,7 @@ Flareon = {'type1':'Fire', 'type2':'Fire', 'move1':'Flare Blitz', 'move2':'Fire 
 
 Porygon = {'type1':'Normal', 'type2':'Normal', 'move1':'Double Edge', 'move2':'Aerial Ace', 'move3':'Ice Beam', 'move4':'Psychic', 'health':'..', 'speed':'..'}
 
+<<<<<<< HEAD
 Omastar = {'type1':'Rock', 'type2':'Water', 'move1':'Hydro Pump', 'move2':'Ice Beam', 'move3':'Scald', 'move4':'Waterfall', 'health':'..', 'speed':'..'}
 
 Kabutops = {'type1':'Rock', 'type2':'Water', 'move1':'Double Edge', 'move2':'Aqua Tail', 'move3':'Night SLash', 'move4':'Mega Kick', 'health':'..', 'speed':'..'}
@@ -161,6 +162,9 @@ Dragonite = {'type1':'Dragon', 'type2':'Flying', 'move1':'Dragon Pulse', 'move2'
 Mewtwo = {'type1':'Psychic', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Psystrike', 'move3':'Tri Attack', 'move4':'Shadow Ball', 'health':'..', 'speed':'..'}
 
 select = {'1': Venusaur, '2': Charizard, '3': Blastoise, '4': Butterfree, '5': Beedrill, '6': Pidgeot, '7': Raticate, '8': Fearow, '9': Arbok, '10': Raichu, '11': Sandslash, '12': Nidoqueen, '13': Nidoking, '14': Clefable, '15': Ninetales, '16': Wigglytuff, '17': Golbat, '18': Vileplume, '19': Parasect, '20': Venomoth, '21': Dugtrio, '22': Persian, '23': Golduck, '24': Primeape, '25': Arcanine, '26': Poliwrath, '27': Alakazam, '28': Machamp, '29': Victreebel, '30': Tentacruel, '31': Golem, '32': Rapidash, '33': Slowbro, '34': Magneton, '35': Farfetchd, '36': Dodrio, '37': Dewgong, '38': Muk, '39': Cloyster, '40': Gengar, '41': Onix, '42': Hypno, '43': Kingler, '44': Electrode, '45': Exeggutor, '46': Marowak, '47': Hitmonlee, '48': Hitmonchan, '49': Lickitung, '50': Weezing, '51': Rhydon, '52': Chansey, '53': Tangela, '54': Kangaskhan, '55': Seadra, '56': Seaking, '57': Starmie, '58': Mr_Mime, '58': Scyther, '60': Jynx, '61': Electabuzz, '62': Magmar, '63': Pinsir, '64': Tauros, '65': 'Gyarados', '66': 'Lapras','67': 'Ditto', '68': 'Vaporeon', '69': 'Jolteon', '70': 'Flareon', '71': 'Porygon', '72': 'Omastar', '73': 'Kabutops', '74': 'Aerodactyl', '75': 'Snorlax', '76': 'Articuno', '77': 'Zapdos', '78': 'Moltres', '79': 'Dragonite', '80': 'Mewtwo'}
+=======
+select = {'1': Venusaur['name'], '2': Charizard['name'], '3': Blastoise['name'], '4': Butterfree['name'], '5': Beedrill['name'], '6': Pidgeot['name'], '7': Raticate['name'], '8': Fearow['name'], '9': Arbok['name'], '10': Raichu['name'], '11': Sandslash['name'], '12': Nidoqueen['name'], '13': Nidoking['name'], '14': Clefable['name'], '15': Ninetales['name'], '16': Wigglytuff['name'], '17': Golbat['name'], '18': Vileplume['name'], '19': Parasect['name'], '20': Venomoth['name'], '21': Dugtrio['name'], '22': Persian['name'], '23': Golduck['name'], '24': Primeape['name'], '25': Arcanine['name'], '26': Poliwrath['name'], '27': Alakazam['name'], '28': Machamp['name'], '29': Victreebel['name'], '30': Tentacruel['name'], '31': Golem['name'], '32': Rapidash['name'], '33': Slowbro['name'], '34': Magneton['name'], '35': Farfetchd['name'], '36': Dodrio['name'], '37': Dewgong['name'], '38': Muk['name'], '39': Cloyster['name'], '40': Gengar['name'], '41': Onix['name'], '42': Hypno['name'], '43': Kingler['name'], '44': Electrode['name'], '45': Exeggutor['name'], '46': Marowak['name'], '47': Hitmonlee['name'], '48': Hitmonchan['name'], '49': Lickitung['name'], '50': Weezing['name'], '51': Rhydon['name'], '52': Chansey['name'], '53': Tangela['name'], '54': Kangaskhan['name'], '55': Seadra['name'], '56': Seaking['name'], '57': Starmie['name'], '58': Mr_Mime['name'], '58': Scyther['name'], '60': Jynx['name'], '61': Electabuzz['name'], '62': Magmar['name'], '63': Pinsir['name'], '64': Tauros['name'], '65': Gyarados['name'], '66': Lapras['name'],'67': Ditto['name'], '68': Vaporeon['name'], '69': Jolteon['name'], '70': Flareon['name'], '71': Porygon['name'], '72': Omastar['name'], '73': Kabutops['name'], '74': Aerodactyl['name'], '75': Snorlax['name'], '76': Articuno['name'], '77': Zapdos['name'], '78': Moltres['name'], '79': Dragonite['name'], '80': Mewtwo['name']}
+>>>>>>> 5933e324ff2db7f50f05b3b6344a92fe5ddda5a0
 
 for x in select:
     print(x,':', select[x])
@@ -216,19 +220,25 @@ def pokeBattle():
     print('Select your first pokemon')
     print('1: ' + select[Poke1] + ' 2: ' + select[Poke2] + ' 3: ' + select[Poke3] + ' ' )
     myPoke = input('Please type number of the pokemon you want to be first: ')
-    print(select[Poke1]['move1'])
-    print(myPoke)
+
     if myPoke == 1 or select[Poke1]:
         print('')
         print("These are your Pokemon's moves")
-        print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
+        myActivePoke = select[Poke1]
+        myActivePokeMoves = ((select[Poke1]['move1']) + (select[Poke1]['move2']) + (select[Poke1]['move3']) + (select[Poke1]['move4']))
+        print(myActivePokeMoves)
     elif myPoke == 2 or select[Poke2]:
         print('')
-        print(((select[Poke2])['move1']) + ((select[Poke2])['move2']) + ((select[Poke2])['move3']) + ((select[Poke2])['move4']))
+        print("These are your Pokemon's moves")
+        myActivePoke = select[Poke2]
+        myActivePokeMoves = ((select[Poke2]['move1']) + (select[Poke2]['move2']) + (select[Poke2]['move3']) + (select[Poke2]['move4']))
+        print(myActivePokeMoves)
     elif myPoke == 3 or select[Poke3]:
         print('')
-        print(((select[Poke3])['move1']) + ((select[Poke3])['move2']) + ((select[Poke3])['move3']) + ((select[Poke3])['move4']))
-
+        print("These are your Pokemon's moves")
+        myActivePoke = select[Poke3]
+        myActivePokeMoves = ((select[Poke3]['move1']) + (select[Poke3]['move2']) + (select[Poke3]['move3']) + (select[Poke3]['move4']))
+        print(myActivePokeMoves)
 
 print(pokePick())
 
@@ -236,8 +246,9 @@ def battle():
     play_again = True
     while play_again:
         winner = None
-        myPokeHP = select[Poke1]['health']
-        opponentPokeHP = 100
+        oppTeam = [select[random.randint(1,80)], select[random.randint(1,80)], select[random.randint(1,80)]]
+        myPokeHP = myPoke['health']
+        opponentPokeHP = select[oppTeam[1]]['health']
 
         myPokeMoveset = myActivePokeMoves
         opponentPokeMoveset = oppActivePokeMoves
@@ -606,7 +617,24 @@ def battle():
             else:
                 pass
 
-        if oppPokeHP <= 0:
-            winner = player
-        elif myPokeHP <= 0:
-            winner = opponent
+            if myPokeHP == 0 or myPokeHP <= 0:
+                print('')
+                print('Your active pokemon has fainted')
+                print(Team - myActivePoke)
+                myActivePoke = input('Please pick from your remaining pokemon to set as your active pokemon: ')
+
+            if oppPokeHP == 0 or oppPokeHP <= 0:
+                print('')
+                print('Your opponents pokemon has fainted')
+                oppTeam = [::-1]
+                oppActivePoke = oppTeam[1]
+
+#Things that we do not have:
+    #Moves
+        #When the moves inflict a status
+        #Move typing
+    #Switching Pokemon and when your active pokemon dies, to change it
+    
+
+
+
