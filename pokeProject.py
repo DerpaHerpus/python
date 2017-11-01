@@ -59,95 +59,95 @@ def pokeBattle():
         print('')
         print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
 
-Venusaur = {'type1': 'Grass', 'type2': 'Poison', 'move1': 'Sludge Bomb', 'move2': 'Giga Drain', 'move3': 'Synthesis', 'move4': 'Earthquake', 'health': '..', 'speed': '..'}
+Venusaur = {'type1': 'Grass', 'type2': 'Poison', 'move1': 'Sludge Bomb', 'move2': 'Giga Drain', 'move3': 'Synthesis', 'move4': 'Earthquake', 'health': '270', 'speed': '80'}
 
-Charizard = {'type1': 'Fire', 'type2': 'Flying', 'move1': 'Flare Blitz', 'move2': 'Dragon Claw', 'move3': 'Earthquake', 'move4': 'Roost', 'health': '..', 'speed': '..'}
+Charizard = {'type1': 'Fire', 'type2': 'Flying', 'move1': 'Flare Blitz', 'move2': 'Dragon Claw', 'move3': 'Earthquake', 'move4': 'Roost', 'health': '266', 'speed': '100'}
 
-Blastoise = {'type1': 'Water', 'type2': 'Water', 'move1': 'Water Pulse', 'move2': 'Ice Beam', 'move3': 'Dark Pulse', 'move4': 'Aura Sphere', 'health': '..', 'speed'    : '..'}
+Blastoise = {'type1': 'Water', 'type2': 'Water', 'move1': 'Water Pulse', 'move2': 'Ice Beam', 'move3': 'Dark Pulse', 'move4': 'Aura Sphere', 'health': '268', 'speed': '78'}
 
-Butterfree = {'type1': 'Grass', 'type2': 'Flying', 'move1': 'Bug Buzz', 'move2': 'Energy Ball', 'move3': 'Psychic', 'move4': 'Air Slash', 'health': '..', 'speed': '..'}
+Butterfree = {'type1': 'Grass', 'type2': 'Flying', 'move1': 'Bug Buzz', 'move2': 'Energy Ball', 'move3': 'Psychic', 'move4': 'Air Slash', 'health': '230', 'speed': '70'}
 
-Beedrill = {'type1':'Grass', 'type2':'Poison', 'move1':'Bug Buzz', 'move2':'Poison Jab', 'move3':'Pursuit', 'move4':'Drill Run', 'health':'..', 'speed':'..'}
+Beedrill = {'type1':'Grass', 'type2':'Poison', 'move1':'Bug Buzz', 'move2':'Poison Jab', 'move3':'Pursuit', 'move4':'Drill Run', 'health':'240', 'speed':'75'}
 
-Pidgeot = {'type1':'Normal', 'type2':'Flying', 'move1':'Hurricane', 'move2':'Heat Wave', 'move3':'Roost', 'move4':'Pursuit', 'health':'..', 'speed':'..'}
+Pidgeot = {'type1':'Normal', 'type2':'Flying', 'move1':'Hurricane', 'move2':'Heat Wave', 'move3':'Roost', 'move4':'Pursuit', 'health':'276', 'speed':'101'}
 
-Raticate = {'type1':'Normal', 'type2':'Normal', 'move1':'Crunch', 'move2':'Hyper Fang', 'move3':'Shadow Claw', 'move4':'Wild Charge', 'health':'..', 'speed':'..'}
+Raticate = {'type1':'Normal', 'type2':'Normal', 'move1':'Crunch', 'move2':'Hyper Fang', 'move3':'Shadow Claw', 'move4':'Wild Charge', 'health':'220', 'speed':'97'}
 
-Fearow = {'type1':'Normal', 'type2':'Flying', 'move1':'Drill Peck', 'move2':'Double Edge', 'move3':'Drill Run', 'move4':'Pursuit', 'health':'..', 'speed':'..'}
+Fearow = {'type1':'Normal', 'type2':'Flying', 'move1':'Drill Peck', 'move2':'Double Edge', 'move3':'Drill Run', 'move4':'Pursuit', 'health':'240', 'speed':'100'}
 
-Arbok = {'type1':'Poison', 'type2':'Poison', 'move1':'Gunk Shot', 'move2':'Crunch', 'move3':'Aqua Tail', 'move4':'Earthquake', 'health':'..', 'speed':'..'}
+Arbok = {'type1':'Poison', 'type2':'Poison', 'move1':'Gunk Shot', 'move2':'Crunch', 'move3':'Aqua Tail', 'move4':'Earthquake', 'health':'230', 'speed':'80'}
 
-Raichu = {'type1':'Electric', 'type2':'Eletric', 'move1':'Thunderbolt', 'move2':'Focus Blast', 'move3':'Signal Beam', 'move4':'Surf', 'health':'..', 'speed':'..'}
+Raichu = {'type1':'Electric', 'type2':'Eletric', 'move1':'Thunderbolt', 'move2':'Focus Blast', 'move3':'Signal Beam', 'move4':'Surf', 'health':'230', 'speed':'110'}
 
-Sandslash = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Stone Edge', 'move3':'Night Slash', 'move4':'Chip Away', 'health':'..', 'speed':'..' }
+Sandslash = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Stone Edge', 'move3':'Night Slash', 'move4':'Chip Away', 'health':'260', 'speed':'65' }
 
-Nidoqueen = {'type1':'Poison', 'type2':'Ground', 'move1':'Earth Power', 'move2':'Ice Beam', 'move3':'Sludge Wave', 'move4':'Flamethrower', 'health':'..', 'speed':'..'}
+Nidoqueen = {'type1':'Poison', 'type2':'Ground', 'move1':'Earth Power', 'move2':'Ice Beam', 'move3':'Sludge Wave', 'move4':'Flamethrower', 'health':'290', 'speed':'76'}
 
-Nidoking = {'type1':'Poison', 'type2':'Ground', 'move1':'Sludge Wave', 'move2':'Earth Power', 'move3':'Ice Beam', 'move4':'Super Power', 'health':'..', 'speed':'..' }
+Nidoking = {'type1':'Poison', 'type2':'Ground', 'move1':'Sludge Wave', 'move2':'Earth Power', 'move3':'Ice Beam', 'move4':'Super Power', 'health':'272', 'speed':'85' }
 
-Clefable = {'type1':'Normal', 'type2':'Normal', 'move1':'Moonblast', 'move2':'Soft-Boiled', 'move3':'Focus Blast', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+Clefable = {'type1':'Normal', 'type2':'Normal', 'move1':'Moonblast', 'move2':'Soft-Boiled', 'move3':'Focus Blast', 'move4':'Ice Beam', 'health':'300', 'speed':'60'}
 
-Ninetales = {'type1':'Fire', 'type2':'Fire', 'move1':'Fire Blast', 'move2':'Psyshock', 'move3':'Energy Ball', 'move4':'Dark Pulse', 'health':'..', 'speed':'..'}
+Ninetales = {'type1':'Fire', 'type2':'Fire', 'move1':'Fire Blast', 'move2':'Psyshock', 'move3':'Energy Ball', 'move4':'Dark Pulse', 'health':'256', 'speed':'100'}
 
-Wigglytuff = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Dazzling Gleam', 'move3':'Fire Blast', 'move4':'Focus Blast', 'health':'..', 'speed':'..'}
+Wigglytuff = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Dazzling Gleam', 'move3':'Fire Blast', 'move4':'Focus Blast', 'health':'390', 'speed':'45'}
 
-Golbat = {'type1':'Poison', 'type2':'Flying', 'move1':'Roost', 'move2':'Brave Bird', 'move3':'Super Fang', 'move4':'Zen Headbutt', 'health':'..', 'speed':'..'}
+Golbat = {'type1':'Poison', 'type2':'Flying', 'move1':'Roost', 'move2':'Brave Bird', 'move3':'Super Fang', 'move4':'Zen Headbutt', 'health':'260', 'speed':'90'}
 
-Vileplume = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Synthesis', 'move4':'Stun Spore', 'health':'..', 'speed':'..'}
+Vileplume = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Synthesis', 'move4':'Stun Spore', 'health':'260', 'speed':'50'}
 
-Parasect = {'type1':'Bug', 'type2':'Grass', 'move1':'Energy Ball', 'move2':'Giga Impact', 'move3':'X-Scissor', 'move4':'Sysnthesis', 'health':'..', 'speed':'..'}
+Parasect = {'type1':'Bug', 'type2':'Grass', 'move1':'Energy Ball', 'move2':'Giga Impact', 'move3':'X-Scissor', 'move4':'Sysnthesis', 'health':'230', 'speed':'30'}
 
-Venomoth = {'type1':'Bug', 'type2':'Poison', 'move1':'Bug Buzz', 'move2':'Sludge Bomb', 'move3':'Energy Ball', 'move4':'Psychic', 'health':'..', 'speed':'..'}
+Venomoth = {'type1':'Bug', 'type2':'Poison', 'move1':'Bug Buzz', 'move2':'Sludge Bomb', 'move3':'Energy Ball', 'move4':'Psychic', 'health':'250', 'speed':'90'}
 
-Dugtrio = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Pursuit', 'move3':'Stone Edge', 'move4':'Shadow Claw', 'health':'..', 'speed':'..'}
+Dugtrio = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Pursuit', 'move3':'Stone Edge', 'move4':'Shadow Claw', 'health':'180', 'speed':'120'}
 
-Persian = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Water Pulse', 'move3':'Night Slash', 'move4':'Power Gem', 'health':'..', 'speed':'..'}
+Persian = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Water Pulse', 'move3':'Night Slash', 'move4':'Power Gem', 'health':'240', 'speed':'115'}
 
-Golduck = {'type1':'Water', 'type2':'Water', 'move1':'Ice Beam', 'move2':'Hydro Pump', 'move3':'Confuse Ray', 'move4':'Body Slam', 'health':'..', 'speed':'..'}
+Golduck = {'type1':'Water', 'type2':'Water', 'move1':'Ice Beam', 'move2':'Hydro Pump', 'move3':'Confuse Ray', 'move4':'Body Slam', 'health':'270', 'speed':'85'}
 
-Primeape = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Earthquake', 'move2':'Body Slam', 'move3':'Dynamic Punch', 'move4':'Fire Punch', 'health':'..', 'speed':'..'}
+Primeape = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Earthquake', 'move2':'Body Slam', 'move3':'Dynamic Punch', 'move4':'Fire Punch', 'health':'240', 'speed':'95'}
 
-Arcanine = {'type1':'Fire', 'type2':'Fire', 'move1':'Fire Blast', 'move2':'Flare Blitz', 'move3':'Body Slam', 'move4':'Heat Wave', 'health':'..', 'speed':'..'}
+Arcanine = {'type1':'Fire', 'type2':'Fire', 'move1':'Fire Blast', 'move2':'Flare Blitz', 'move3':'Body Slam', 'move4':'Heat Wave', 'health':'290', 'speed':'95'}
 
-Poliwrath = {'type1':'Fighting', 'type2':'Water', 'move1':'Earthquake', 'move2':'Ice Punch', 'move3':'Scald', 'move4':'Dynamic Punch', 'health':'..', 'speed':'..'}
+Poliwrath = {'type1':'Fighting', 'type2':'Water', 'move1':'Earthquake', 'move2':'Ice Punch', 'move3':'Scald', 'move4':'Dynamic Punch', 'health':'290', 'speed':'70'}
 
-Alakazam = {'type1':'Psychic', 'type2':'Psychic', 'move1':'Psychic', 'move2':'Confusion', 'move3':'Psybeam', 'move4':'Tri Attack', 'health':'..', 'speed':'..'}
+Alakazam = {'type1':'Psychic', 'type2':'Psychic', 'move1':'Psychic', 'move2':'Confusion', 'move3':'Psybeam', 'move4':'Tri Attack', 'health':'220', 'speed':'120'}
 
-Machamp = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Dynamic Punch', 'move2':'Earthquake', 'move3':'Mega Kick', 'move4':'Mega Punch', 'health':'..', 'speed':'..'}
+Machamp = {'type1':'Fighting', 'type2':'Fighting', 'move1':'Dynamic Punch', 'move2':'Earthquake', 'move3':'Mega Kick', 'move4':'Mega Punch', 'health':'290', 'speed':'55'}
 
-Victreebel = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Leaf Blade', 'move4':'Power Whip', 'health':'..', 'speed':'..'}
+Victreebel = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Leaf Blade', 'move4':'Power Whip', 'health':'270', 'speed':'70'}
 
-Tentacruel = {'type1':'Poison', 'type2':'Water', 'move1':'Confuse Ray', 'move2':'Sludge Bomb', 'move3':'Hydro Pump', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+Tentacruel = {'type1':'Poison', 'type2':'Water', 'move1':'Confuse Ray', 'move2':'Sludge Bomb', 'move3':'Hydro Pump', 'move4':'Ice Beam', 'health':'270', 'speed':'100'}
 
-Golem = {'type1':'Ground', 'type2':'Rock', 'move1':'Body Slam', 'move2':'Earthquake', 'move3':'Explosion', 'move4':'Rock Climb', 'health':'..', 'speed':'..'}
+Golem = {'type1':'Ground', 'type2':'Rock', 'move1':'Body Slam', 'move2':'Earthquake', 'move3':'Explosion', 'move4':'Rock Climb', 'health':'270', 'speed':'45'}
 
-Rapidash = {'type1':'Fire', 'type2':'Fire', 'move1':'Flamethrower', 'move2':'Flare Blitz', 'move3':'Mega Horn', 'move4':'Inferno', 'health':'..', 'speed':'..'}
+Rapidash = {'type1':'Fire', 'type2':'Fire', 'move1':'Flamethrower', 'move2':'Flare Blitz', 'move3':'Mega Horn', 'move4':'Inferno', 'health':'240', 'speed':'105'}
 
-Slowbro = {'type1':'Psychic', 'type2':'Water', 'move1':'Aqua Tail', 'move2':'Confusion', 'move3':'Headbutt', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+Slowbro = {'type1':'Psychic', 'type2':'Water', 'move1':'Aqua Tail', 'move2':'Confusion', 'move3':'Headbutt', 'move4':'Ice Beam', 'health':'300', 'speed':'30'}
 
-Magneton = {'type1':'Eletric', 'type2':'Steel', 'move1':'Spark', 'move2':'Thunder', 'move3':'Thunderwave', 'move4':'Wild Charge', 'health':'..', 'speed':'..'}
+Magneton = {'type1':'Eletric', 'type2':'Steel', 'move1':'Spark', 'move2':'Thunder', 'move3':'Thunderwave', 'move4':'Wild Charge', 'health':'210', 'speed':'70'}
 
-Farfetchd = {'type1':'Normal', 'type2':'Flying', 'move1':'Aerial Ace', 'move2':'Air Cutter', 'move3':'Headbutt', 'move4':'Leaf Blade', 'health':'..', 'speed':'..'}
+Farfetchd = {'type1':'Normal', 'type2':'Flying', 'move1':'Aerial Ace', 'move2':'Air Cutter', 'move3':'Headbutt', 'move4':'Leaf Blade', 'health':'214', 'speed':'60'}
 
-Dodrio = {'type1':'Flying', 'type2':'Normal', 'move1':'Aerial Ace', 'move2':'Brave Bird', 'move3':'Drill Peck', 'move4':'Feint Attack', 'health':'..', 'speed':'..'}
+Dodrio = {'type1':'Flying', 'type2':'Normal', 'move1':'Aerial Ace', 'move2':'Brave Bird', 'move3':'Drill Peck', 'move4':'Feint Attack', 'health':'230', 'speed':'110'}
 
-Dewgong = {'type1':'Ice', 'type2':'Water', 'move1':'Aqua Tail', 'move2':'Drill Run', 'move3':'Ice Beam', 'move4':'Slam', 'health':'..', 'speed':'..'}
+Dewgong = {'type1':'Ice', 'type2':'Water', 'move1':'Aqua Tail', 'move2':'Drill Run', 'move3':'Ice Beam', 'move4':'Slam', 'health':'290', 'speed':'70'}
 
-Muk = {'type1':'Poison', 'type2':'Poison', 'move1':'Explosion', 'move2':'Gunk Shot', 'move3':'Poison Gas', 'move4':'Lick', 'health':'..', 'speed':'..'}
+Muk = {'type1':'Poison', 'type2':'Poison', 'move1':'Explosion', 'move2':'Gunk Shot', 'move3':'Poison Gas', 'move4':'Lick', 'health':'320', 'speed':'50'}
 
-Cloyster = {'type1':'Ice', 'type2':'Water', 'move1':'Frost Breath', 'move2':'Hydro Pump', 'move3':'Ice Beam', 'move4':'Self-Destruct', 'health':'..', 'speed':'..'}
+Cloyster = {'type1':'Ice', 'type2':'Water', 'move1':'Frost Breath', 'move2':'Hydro Pump', 'move3':'Ice Beam', 'move4':'Self-Destruct', 'health':'210', 'speed':'70'}
 
-Gengar = {'type1':'Ghost', 'type2':'Poison', 'move1':'Dark Pulse', 'move2':'Shadow Claw', 'move3':'Shadow Punch', 'move4':'Sludge Bomb', 'health':'..', 'speed':'..'}
+Gengar = {'type1':'Ghost', 'type2':'Poison', 'move1':'Dark Pulse', 'move2':'Shadow Claw', 'move3':'Shadow Punch', 'move4':'Sludge Bomb', 'health':'230', 'speed':'110'}
 
-Onix = {'type1':'Ground', 'type2':'Rock', 'move1':'Body Slam', 'move2':'Double Edge', 'move3':'Earthquake', 'move4':'Explosion', 'health':'..', 'speed':'..'}
+Onix = {'type1':'Ground', 'type2':'Rock', 'move1':'Body Slam', 'move2':'Double Edge', 'move3':'Earthquake', 'move4':'Explosion', 'health':'180', 'speed':'70'}
 
-Hypno = {'type1':'Psychic', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Mega Punch', 'move3':'Tri Attack', 'move4':'Zen Headbutt', 'health':'..', 'speed':'..'}
+Hypno = {'type1':'Psychic', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Mega Punch', 'move3':'Tri Attack', 'move4':'Zen Headbutt', 'health':'280', 'speed':'67'}
 
-Kingler = {'type1':'Water', 'type2':'Water', 'move1':'Crabhammer', 'move2':'Ice Beam', 'move3':'Scald', 'move4':'Surf', 'health':'..', 'speed':'..'}
+Kingler = {'type1':'Water', 'type2':'Water', 'move1':'Crabhammer', 'move2':'Ice Beam', 'move3':'Scald', 'move4':'Surf', 'health':'220', 'speed':'75'}
 
-Electrode = {'type1':'Electric', 'type2':'Electric', 'move1':'Thunder', 'move2':'Thunderbolt', 'move3':'Thunderwave', 'move4':'Wild Charge', 'health':'..', 'speed':'..'}
+Electrode = {'type1':'Electric', 'type2':'Electric', 'move1':'Thunder', 'move2':'Thunderbolt', 'move3':'Thunderwave', 'move4':'Wild Charge', 'health':'230', 'speed':'150'}
 
-Exeggutor = {'type1':'Grass', 'type2':'Psychic', 'move1':'Flamethrower', 'move2':'Flare Blitz', 'move3':'Mega Horn', 'move4':'Inferno', 'health':'..', 'speed':'..'}
+Exeggutor = {'type1':'Grass', 'type2':'Psychic', 'move1':'Flamethrower', 'move2':'Flare Blitz', 'move3':'Mega Horn', 'move4':'Inferno', 'health':'300', 'speed':'55'}
 
 print(pokePick())
 
