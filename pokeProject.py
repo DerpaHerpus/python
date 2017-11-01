@@ -182,6 +182,19 @@ Starmie = {'type1':'Psychic', 'type2':'Water', 'move1':'Scald', 'move2':'Hydro P
 
 Mr._Mime = {'type1':'Psychic', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Focus Punch', 'move3':'Psybeam', 'move4':'Psyshock', 'health':'..', 'speed':'..'}
 
+Scyther = {'type1':'Bug', 'type2':'Flying', 'move1':'Roost', 'move2':'Air Slash', 'move3':'Double Edge', 'move4':'Night Slash', 'health':'..', 'speed':'..'}
+
+Jynx = {'type1':'Ice', 'type2':'Psychic', 'move1':'Confusion', 'move2':'Focus Punch', 'move3':'Icebeam', 'move4':'Psyshock', 'health':'..', 'speed':'..'}
+
+Electabuzz = {'type1':'Electric', 'type2':'Electric', 'move1':'Thunder', 'move2':'Thunder Punch', 'move3':'Spark', 'move4':'Headbutt', 'health':'..', 'speed':'..'}
+
+Magmar = {'type1':'Fire', 'type2':'Fire', 'move1':'Fire Punch', 'move2':'Fire Blast', 'move3':'Double Edge', 'move4':'Flare Blitz', 'health':'..', 'speed':'..'}
+
+Pinsir = {'type1':'Bug', 'type2':'Bug', 'move1':'Body Slam', 'move2':'Double Edge', 'move3':'Fury Cutter', 'move4':'X-Scissor', 'health':'..', 'speed':'..'}
+
+Tauros = {'type1':'Normal', 'type2':'Normal', 'move1':'Double Edge', 'move2':'Fire Blast', 'move3':'Horn Attack', 'move4':'Stone Edge', 'health':'..', 'speed':'..'}
+
+
 print(pokePick())
 
 def battle():
