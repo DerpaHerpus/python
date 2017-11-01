@@ -54,15 +54,16 @@ def pokeBattle():
     print("Alright, now it's time to battle!")
     print('')
     print('Select your first pokemon')
-    myPoke = input('1: ' + select[Poke1] + ' 2: ' + select[Poke2] + ' 3: ' + select[Poke3] + ' ' )
+    print('1: ' + select[Poke1] + ' 2: ' + select[Poke2] + ' 3: ' + select[Poke3] + ' ' )
+    myPoke = input('Please type the name of your first Pokemon: ')
     if myPoke == 1 or select[Poke1]:
         print('')
         print("These are your Pokemon's moves")
         print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
-    if myPoke == 2 or select[Poke2]:
+    elif myPoke == 2 or select[Poke2]:
         print('')
         print(((select[Poke2])['move1']) + ((select[Poke2])['move2']) + ((select[Poke2])['move3']) + ((select[Poke2])['move4']))
-    if myPoke == 3 or select[Poke3]:
+    elif myPoke == 3 or select[Poke3]:
         print('')
         print(((select[Poke3])['move1']) + ((select[Poke3])['move2']) + ((select[Poke3])['move3']) + ((select[Poke3])['move4']))
 
@@ -188,7 +189,7 @@ def battle():
     play_again = True
     while play_again:
         winner = None
-        myPokeHP = 100
+        myPokeHP = select[Poke1]['health']
         opponentPokeHP = 100
 
         myPokeMoveset = myActivePokeMoves
