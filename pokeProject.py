@@ -60,23 +60,52 @@ def pokeBattle():
         print(((select[Poke1])['move1']) + ((select[Poke1])['move2']) + ((select[Poke1])['move3']) + ((select[Poke1])['move4']))
 
 Venusaur = {'type1': 'Grass', 'type2': 'Poison', 'move1': 'Sludge Bomb', 'move2': 'Giga Drain', 'move3': 'Synthesis', 'move4': 'Earthquake', 'health': '..', 'speed'    : '..'}
+
 Charizard = {'type1': 'Fire', 'type2': 'Flying', 'move1': 'Flare Blitz', 'move2': 'Dragon Claw', 'move3': 'Earthquake', 'move4': 'Roost', 'health': '..', 'speed': '    ..'}
+
 Blastoise = {'type1': 'Water', 'type2': 'Water', 'move1': 'Water Pulse', 'move2': 'Ice Beam', 'move3': 'Dark Pulse', 'move4': 'Aura Sphere', 'health': '..', 'speed'    : '..'}
+
 Butterfree = {'type1': 'Grass', 'type2': 'Flying', 'move1': 'Bug Buzz', 'move2': 'Energy Ball', 'move3': 'Psychic', 'move4': 'Air Slash', 'health': '..', 'speed': '    ..'}
+
 Beedrill = {'type1':'Grass', 'type2':'Poison', 'move1':'Bug Buzz', 'move2':'Poison Jab', 'move3':'Pursuit', 'move4':'Drill Run', 'health':'..', 'speed':'..'}
+
 Pidgeot = {'type1':'Normal', 'type2':'Flying', 'move1':'Hurricane', 'move2':'Heat Wave', 'move3':'Roost', 'move4':'Pursuit', 'health':'..', 'speed':'..'}
+
 Raticate = {'type1':'Normal', 'type2':'Normal', 'move1':'Crunch', 'move2':'Hyper Fang', 'move3':'Shadow Claw', 'move4':'Wild Charge', 'health':'..', 'speed':'..'}
+
 Fearow = {'type1':'Normal', 'type2':'Flying', 'move1':'Drill Peck', 'move2':'Double Edge', 'move3':'Drill Run', 'move4':'Pursuit', 'health':'..', 'speed':'..'}
+
 Arbok = {'type1':'Poison', 'type2':'Poison', 'move1':'Gunk Shot', 'move2':'Crunch', 'move3':'Aqua Tail', 'move4':'Earthquake', 'health':'..', 'speed':'..'}
+
 Raichu = {'type1':'Electric', 'type2':'Eletric', 'move1':'Thunderbolt', 'move2':'Focus Blast', 'move3':'Signal Beam', 'move4':'Surf', 'health':'..', 'speed':'..'}
+
 Sandslash = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Stone Edge', 'move3':'Night Slash', 'move4':'Chip Away', 'health':'..', 'speed':'..'    }
+
 Nidoqueen = {'type1':'Poison', 'type2':'Ground', 'move1':'Earth Power', 'move2':'Ice Beam', 'move3':'Sludge Wave', 'move4':'Flamethrower', 'health':'..', 'speed':'.    .'}
+
 Nidoking = {'type1':'Poison', 'type2':'Ground', 'move1':'Sludge Wave', 'move2':'Earth Power', 'move3':'Ice Beam', 'move4':'Super Power', 'health':'..', 'speed':'..'    }
+
 Clefable = {'type1':'Normal', 'type2':'Normal', 'move1':'Moonblast', 'move2':'Soft-Boiled', 'move3':'Focus Blast', 'move4':'Ice Beam', 'health':'..', 'speed':'..'}
+
 Ninetales = {'type1':'Fire', 'type2':'Fire', 'move1':'Fire Blast', 'move2':'Psyshock', 'move3':'Energy Ball', 'move4':'Dark Pulse', 'health':'..', 'speed':'..'}
-Wigglytuff = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Dazzling Gleam', 'move3':'Fire Blast', 'move4':'Focus Blast', 'health':'..', 'spee    d':'..'}
+
+Wigglytuff = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Dazzling Gleam', 'move3':'Fire Blast', 'move4':'Focus Blast', 'health':'..', 'speed':'..'}
+
 Golbat = {'type1':'Poison', 'type2':'Flying', 'move1':'Roost', 'move2':'Brave Bird', 'move3':'Super Fang', 'move4':'Zen Headbutt', 'health':'..', 'speed':'..'}
+
+Vileplume = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Synthesis', 'move4':'Stun Spore', 'health':'..', 'speed':'..'}
+
+Parasect = {'type1':'Bug', 'type2':'Grass', 'move1':'Energy Ball', 'move2':'Giga Impact', 'move3':'X-Scissor', 'move4':'Sysnthesis', 'health':'..', 'speed':'..'}
+
+Venomoth = {'type1':'Bug', 'type2':'Poison', 'move1':'Bug Buzz', 'move2':'Sludge Bomb', 'move3':'Energy Ball', 'move4':'Psychic', 'health':'..', 'speed':'..'}
+
+Dugtrio = {'type1':'Ground', 'type2':'Ground', 'move1':'Earthquake', 'move2':'Pursuit', 'move3':'Stone Edge', 'move4':'Shadow Claw', 'health':'..', 'speed':'..'}
+
+Persian = {'type1':'Normal', 'type2':'Normal', 'move1':'Hyper Voice', 'move2':'Water Pulse', 'move3':'Night Slash', 'move4':'Power Gem', 'health':'..', 'speed':'..'}
+
+Vileplume = {'type1':'Grass', 'type2':'Poison', 'move1':'Giga Drain', 'move2':'Sludge Bomb', 'move3':'Synthesis', 'move4':'Power', 'health':'..', 'speed':'..'}
 print(pokePick())
+
     play_again = True
     while play_again:
         winner = None

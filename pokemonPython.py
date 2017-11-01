@@ -7,7 +7,7 @@ def battle():
     print('\tChoose your pokemon!')
 
     play_again = True
-    while play_again:           #this is a test
+    while play_again:
         winner = None
         myPokeHP = 100
         opponentPokeHP = 100
